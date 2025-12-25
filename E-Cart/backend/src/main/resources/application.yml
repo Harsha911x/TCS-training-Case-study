@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: ecart-backend
+  datasource:
+    url: jdbc:h2:file:./data/ecartdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+jwt:
+  secret: ecart-secret-key-for-jwt-token-generation-minimum-256-bits-required-for-hs256-algorithm
+  expiration: 86400000 # 24 hours in milliseconds
+
+logging:
+  level:
+    com.example.ecart: DEBUG
+    org.springframework.security: DEBUG
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+

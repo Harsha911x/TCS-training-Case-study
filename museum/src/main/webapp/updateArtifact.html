@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Artifact - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ===== HEADER ===== -->
+    <div class="header">
+        <h1 id="pageTitle">Update Artifact</h1>
+        <div class="header-right" id="headerUser">Welcome, User</div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <div class="navbar-wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="createArtifact.html">Create Artifact</a></li>
+                <li><a href="searchArtifact.html">Search Artifacts</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- ===== FORM ===== -->
+    <div class="form-container">
+        <div id="alertContainer"></div>
+
+        <form id="updateArtifactForm" onsubmit="handleUpdate(event)">
+            <input type="hidden" id="artifactId">
+
+            <div class="form-group">
+                <label>Artifact Name *</label>
+                <input type="text" id="artifactName" required>
+            </div>
+
+            <div class="form-group">
+                <label>Artifact Code</label>
+                <input type="text" id="artifactCode" readonly style="background:#eee;">
+            </div>
+
+            <div class="form-group">
+                <label>Category *</label>
+                <select id="category" required>
+                    <option value="">Select Category</option>
+                    <option>Sculpture</option><option>Painting</option><option>Pottery</option>
+                    <option>Jewelry</option><option>Textile</option><option>Weapon</option>
+                    <option>Tool</option><option>Document</option><option>Coin</option>
+                    <option>Furniture</option><option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea id="description" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Period</label>
+                <input type="text" id="period">
+            </div>
+
+            <div class="form-group">
+                <label>Origin</label>
+                <input type="text" id="origin">
+            </div>
+
+            <div class="form-group">
+                <label>Material</label>
+                <input type="text" id="material">
+            </div>
+
+            <div class="form-group">
+                <label>Dimensions</label>
+                <input type="text" id="dimensions">
+            </div>
+
+            <div class="form-group">
+                <label>Condition Status</label>
+                <select id="conditionStatus">
+                    <option value="">Select</option>
+                    <option>Excellent</option><option>Good</option><option>Fair</option>
+                    <option>Poor</option><option>Needs Restoration</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Acquisition Date</label>
+                <input type="date" id="acquisitionDate">
+            </div>
+
+            <div class="form-group">
+                <label>Acquisition Method</label>
+                <select id="acquisitionMethod">
+                    <option value="">Select</option>
+                    <option>Purchase</option><option>Donation</option>
+                    <option>Loan</option><option>Excavation</option>
+                    <option>Transfer</option><option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="location">
+            </div>
+
+            <div class="form-group">
+                <label>Estimated Value</label>
+                <input type="number" id="value" step="0.01" min="0">
+            </div>
+
+            <button class="btn btn-primary" style="width:100%;">Update Artifact</button>
+        </form>
+
+        <div class="text-center mt-20">
+            <a href="dashboard.html" class="btn btn-secondary">Back to Dashboard</a>
+        </div>
+
+    </div>
+</div>
+
+<script>
+document.getElementById("headerUser").innerText = "Welcome, " + (localStorage.getItem("username") || "User");
+
+function showAlert(message, type) {
+    const container = document.getElementById("alertContainer");
+    container.innerHTML = `<div class="alert alert-${type}">${message}</div>`;
+    setTimeout(() => container.innerHTML = "", 4000);
+}
+
+async function loadArtifact() {
+    const id = new URLSearchParams(window.location.search).get("id");
+    if (!id) return;
+
+    document.getElementById("artifactId").value = id;
+
+    const response = await fetch("viewArtifact?artifactId=" + id);
+    const data = await response.json();
+
+    if (data.success) {
+        const a = data.data;
+        document.getElementById("artifactName").value = a.artifactName;
+        document.getElementById("artifactCode").value = a.artifactCode;
+        document.getElementById("category").value = a.category;
+        document.getElementById("description").value = a.description;
+        document.getElementById("period").value = a.period;
+        document.getElementById("origin").value = a.origin;
+        document.getElementById("material").value = a.material;
+        document.getElementById("dimensions").value = a.dimensions;
+        document.getElementById("conditionStatus").value = a.conditionStatus;
+        document.getElementById("acquisitionDate").value = a.acquisitionDate || "";
+        document.getElementById("acquisitionMethod").value = a.acquisitionMethod;
+        document.getElementById("location").value = a.location;
+        document.getElementById("value").value = a.value;
+    }
+}
+
+async function handleUpdate(event) {
+    event.preventDefault();
+
+    const params = new URLSearchParams(new FormData(document.getElementById("updateArtifactForm")));
+
+    const response = await fetch("updateArtifact", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: params.toString()
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+        alert("Artifact updated successfully!");
+        window.location.href = "dashboard.html";
+    } else {
+        showAlert(data.error, "error");
+    }
+}
+
+loadArtifact();
+</script>
+
+</body>
+</html>

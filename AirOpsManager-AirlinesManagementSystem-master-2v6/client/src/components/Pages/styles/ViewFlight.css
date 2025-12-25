@@ -1,0 +1,122 @@
+/* ViewFlight Styles - Simple and Clean like ViewReviews */
+
+.view-flight-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.view-flight-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  margin-bottom: 20px;
+}
+
+.flight-header-card {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.flight-logo {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+.flight-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.flight-airline {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.flight-number {
+  font-size: 16px;
+  color: #64748b;
+  margin: 0;
+}
+
+.flight-status-badge {
+  padding: 8px 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.status-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+  text-transform: capitalize;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(226, 232, 240, 0.9);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.info-item label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.info-item span {
+  font-size: 14px;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flight-header-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .flight-header-content {
+    width: 100%;
+  }
+}

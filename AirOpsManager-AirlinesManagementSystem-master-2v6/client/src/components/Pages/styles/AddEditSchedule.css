@@ -1,0 +1,91 @@
+
+
+
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.schedule-form {
+  background: #f8f9fa;
+  padding: 25px;
+  width: 520px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+
+.schedule-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.schedule-form label {
+  font-weight: 600;
+  margin-top: 12px;
+  display: block;
+}
+
+.schedule-form input,
+.schedule-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.row-2 input {
+  background: #e9ecef;
+  font-weight: bold;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn {
+  width: 48%;
+  padding: 10px;
+  background: #007bff;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-btn {
+  width: 48%;
+  padding: 10px;
+  background: #6c757d;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #0069d9;
+}
+.back-btn:hover {
+  background: #5a6268;
+}
+
+
+
+
+
+
+

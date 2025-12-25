@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Artifacts - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1 id="pageTitle">Search Artifact</h1>
+    <div class="header-right" id="headerUser">Welcome, User</div>
+</div>
+
+<div class="navbar-wrapper">
+    <nav class="navbar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="createArtifact.html">Create Artifact</a></li>
+            <li><a href="searchArtifact.html">Search Artifacts</a></li>
+            <li><a href="logout">Logout</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container">
+
+    <div class="form-container">
+        <div id="alertContainer"></div>
+
+        <form id="searchForm" onsubmit="handleSearch(event)">
+            <div class="form-group">
+                <label for="searchTerm">Search Term *</label>
+                <input type="text" id="searchTerm" name="searchTerm" required
+                       maxlength="200"
+                       placeholder="Search by name, code, category, period, location, etc.">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Search</button>
+            </div>
+        </form>
+
+        <div id="searchResults" class="mt-20"></div>
+    </div>
+
+</div>
+
+<script>
+function showAlert(message, type) {
+    const container = document.getElementById('alertContainer');
+    container.innerHTML = `<div class="alert alert-${type}">${message}</div>`;
+    setTimeout(() => container.innerHTML = '', 5000);
+}
+
+async function handleSearch(event) {
+    event.preventDefault();
+    const searchTerm = document.getElementById('searchTerm').value.trim();
+
+    if (searchTerm.length < 2) {
+        showAlert("Please enter at least 2 characters", "error");
+        return;
+    }
+
+    try {
+        const response = await fetch(`searchArtifact?searchTerm=${encodeURIComponent(searchTerm)}`);
+        const data = await response.json();
+
+        if (data.success && data.data.length > 0) {
+            displayResults(data.data);
+        } else {
+            document.getElementById("searchResults").innerHTML =
+                `<div class="alert alert-error">No artifacts found.</div>`;
+        }
+
+    } catch (error) {
+        showAlert("Error searching artifacts", "error");
+    }
+}
+
+function displayResults(artifacts) {
+    let html = `<h3>Results (${artifacts.length})</h3>
+    <div class="table-container"><table>
+    <thead><tr>
+        <th>Code</th><th>Name</th><th>Category</th><th>Period</th><th>Location</th><th>Actions</th>
+    </tr></thead><tbody>`;
+
+    artifacts.forEach(a => {
+        html += `
+        <tr>
+            <td>${a.artifactCode}</td>
+            <td>${a.artifactName}</td>
+            <td>${a.category}</td>
+            <td>${a.period}</td>
+            <td>${a.location}</td>
+            <td>
+                <a href="viewArtifact.html?id=${a.artifactId}" class="btn btn-primary" style="padding:5px 10px;">View</a>
+                <a href="updateArtifact.html?id=${a.artifactId}" class="btn btn-success" style="padding:5px 10px;">Edit</a>
+            </td>
+        </tr>`;
+    });
+
+    html += "</tbody></table></div>";
+    document.getElementById("searchResults").innerHTML = html;
+}
+</script>
+
+</body>
+</html>

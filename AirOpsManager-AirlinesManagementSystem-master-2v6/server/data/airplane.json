@@ -1,0 +1,626 @@
+[
+  {
+    "airplane_id": 1,
+    "airline": "IndiGo",
+    "model": "AIRBUS 320",
+    "max_seats": 100
+  },
+  {
+    "airplane_id": 2,
+    "airline": "IndiGo",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 3,
+    "airline": "IndiGo",
+    "model": "ATR 72-600",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 4,
+    "airline": "IndiGo",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 5,
+    "airline": "IndiGo",
+    "model": "Airbus A321neo",
+    "max_seats": 232
+  },
+  {
+    "airplane_id": 6,
+    "airline": "Air India",
+    "model": "Airbus A320",
+    "max_seats": 182
+  },
+  {
+    "airplane_id": 7,
+    "airline": "Air India",
+    "model": "Airbus A321",
+    "max_seats": 200
+  },
+  {
+    "airplane_id": 8,
+    "airline": "Air India",
+    "model": "Boeing 737-800",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 9,
+    "airline": "Air India",
+    "model": "Airbus A320neo",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 10,
+    "airline": "Air India",
+    "model": "Airbus A321neo",
+    "max_seats": 224
+  },
+  {
+    "airplane_id": 11,
+    "airline": "Vistara",
+    "model": "Airbus A320neo",
+    "max_seats": 164
+  },
+  {
+    "airplane_id": 12,
+    "airline": "Vistara",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 13,
+    "airline": "Vistara",
+    "model": "Boeing 737-800",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 14,
+    "airline": "Vistara",
+    "model": "Airbus A319",
+    "max_seats": 132
+  },
+  {
+    "airplane_id": 15,
+    "airline": "Vistara",
+    "model": "Airbus A320",
+    "max_seats": 168
+  },
+  {
+    "airplane_id": 16,
+    "airline": "SpiceJet",
+    "model": "Boeing 737 MAX",
+    "max_seats": 197
+  },
+  {
+    "airplane_id": 17,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-800",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 18,
+    "airline": "SpiceJet",
+    "model": "Q400",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 19,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-700",
+    "max_seats": 148
+  },
+  {
+    "airplane_id": 20,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-900",
+    "max_seats": 215
+  },
+  {
+    "airplane_id": 21,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 22,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX 8",
+    "max_seats": 190
+  },
+  {
+    "airplane_id": 23,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX 9",
+    "max_seats": 210
+  },
+  {
+    "airplane_id": 24,
+    "airline": "Akasa Air",
+    "model": "Boeing 737-800",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 25,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX",
+    "max_seats": 197
+  },
+  {
+    "airplane_id": 26,
+    "airline": "Go First",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 27,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 28,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 188
+  },
+  {
+    "airplane_id": 29,
+    "airline": "Go First",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 30,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 182
+  },
+  {
+    "airplane_id": 31,
+    "airline": "Alliance Air",
+    "model": "ATR 72-600",
+    "max_seats": 72
+  },
+  {
+    "airplane_id": 32,
+    "airline": "Alliance Air",
+    "model": "ATR 42",
+    "max_seats": 48
+  },
+  {
+    "airplane_id": 33,
+    "airline": "Alliance Air",
+    "model": "ATR 72-500",
+    "max_seats": 70
+  },
+  {
+    "airplane_id": 34,
+    "airline": "Alliance Air",
+    "model": "ATR 72-600",
+    "max_seats": 72
+  },
+  {
+    "airplane_id": 35,
+    "airline": "Alliance Air",
+    "model": "Dornier 228",
+    "max_seats": 19
+  },
+  {
+    "airplane_id": 36,
+    "airline": "AirAsia India",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 37,
+    "airline": "AirAsia India",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 38,
+    "airline": "AirAsia India",
+    "model": "Airbus A320neo",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 39,
+    "airline": "AirAsia India",
+    "model": "Airbus A320",
+    "max_seats": 178
+  },
+  {
+    "airplane_id": 40,
+    "airline": "AirAsia India",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 41,
+    "airline": "IndiGo",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 42,
+    "airline": "IndiGo",
+    "model": "Airbus A321neo",
+    "max_seats": 232
+  },
+  {
+    "airplane_id": 43,
+    "airline": "IndiGo",
+    "model": "ATR 72-600",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 44,
+    "airline": "IndiGo",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 45,
+    "airline": "IndiGo",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 46,
+    "airline": "Air India",
+    "model": "Airbus A319",
+    "max_seats": 144
+  },
+  {
+    "airplane_id": 47,
+    "airline": "Air India",
+    "model": "Airbus A320neo",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 48,
+    "airline": "Air India",
+    "model": "Airbus A321neo",
+    "max_seats": 224
+  },
+  {
+    "airplane_id": 49,
+    "airline": "Air India",
+    "model": "Airbus A320",
+    "max_seats": 182
+  },
+  {
+    "airplane_id": 50,
+    "airline": "Air India",
+    "model": "Boeing 737-800",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 51,
+    "airline": "Vistara",
+    "model": "Airbus A320",
+    "max_seats": 164
+  },
+  {
+    "airplane_id": 52,
+    "airline": "Vistara",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 53,
+    "airline": "Vistara",
+    "model": "Airbus A319",
+    "max_seats": 132
+  },
+  {
+    "airplane_id": 54,
+    "airline": "Vistara",
+    "model": "Airbus A320neo",
+    "max_seats": 164
+  },
+  {
+    "airplane_id": 55,
+    "airline": "Vistara",
+    "model": "Boeing 737-800",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 56,
+    "airline": "SpiceJet",
+    "model": "Boeing 737 MAX",
+    "max_seats": 197
+  },
+  {
+    "airplane_id": 57,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-900",
+    "max_seats": 215
+  },
+  {
+    "airplane_id": 58,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-700",
+    "max_seats": 148
+  },
+  {
+    "airplane_id": 59,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-800",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 60,
+    "airline": "SpiceJet",
+    "model": "Q400",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 61,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX 8",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 62,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX 9",
+    "max_seats": 210
+  },
+  {
+    "airplane_id": 63,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX",
+    "max_seats": 197
+  },
+  {
+    "airplane_id": 64,
+    "airline": "Akasa Air",
+    "model": "Boeing 737-800",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 65,
+    "airline": "Akasa Air",
+    "model": "Boeing 737 MAX",
+    "max_seats": 190
+  },
+  {
+    "airplane_id": 66,
+    "airline": "Go First",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 67,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 68,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 188
+  },
+  {
+    "airplane_id": 69,
+    "airline": "Go First",
+    "model": "Airbus A320",
+    "max_seats": 178
+  },
+  {
+    "airplane_id": 70,
+    "airline": "Go First",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 71,
+    "airline": "Alliance Air",
+    "model": "ATR 72-600",
+    "max_seats": 72
+  },
+  {
+    "airplane_id": 72,
+    "airline": "Alliance Air",
+    "model": "Dornier 228",
+    "max_seats": 19
+  },
+  {
+    "airplane_id": 73,
+    "airline": "Alliance Air",
+    "model": "ATR 42",
+    "max_seats": 48
+  },
+  {
+    "airplane_id": 74,
+    "airline": "Alliance Air",
+    "model": "ATR 72-500",
+    "max_seats": 70
+  },
+  {
+    "airplane_id": 75,
+    "airline": "Alliance Air",
+    "model": "ATR 72-600",
+    "max_seats": 72
+  },
+  {
+    "airplane_id": 76,
+    "airline": "AirAsia India",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 77,
+    "airline": "AirAsia India",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 78,
+    "airline": "AirAsia India",
+    "model": "Airbus A320neo",
+    "max_seats": 189
+  },
+  {
+    "airplane_id": 79,
+    "airline": "AirAsia India",
+    "model": "Airbus A320",
+    "max_seats": 178
+  },
+  {
+    "airplane_id": 80,
+    "airline": "AirAsia India",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 81,
+    "airline": "IndiGo",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 82,
+    "airline": "IndiGo",
+    "model": "Airbus A321neo",
+    "max_seats": 232
+  },
+  {
+    "airplane_id": 83,
+    "airline": "IndiGo",
+    "model": "ATR 72-600",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 84,
+    "airline": "IndiGo",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 85,
+    "airline": "IndiGo",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 86,
+    "airline": "Air India",
+    "model": "Airbus A320",
+    "max_seats": 182
+  },
+  {
+    "airplane_id": 87,
+    "airline": "Air India",
+    "model": "Airbus A319",
+    "max_seats": 144
+  },
+  {
+    "airplane_id": 88,
+    "airline": "Air India",
+    "model": "Airbus A321neo",
+    "max_seats": 224
+  },
+  {
+    "airplane_id": 89,
+    "airline": "Air India",
+    "model": "Airbus A320neo",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 90,
+    "airline": "Air India",
+    "model": "Airbus A320",
+    "max_seats": 180
+  },
+  {
+    "airplane_id": 91,
+    "airline": "Vistara",
+    "model": "Airbus A320",
+    "max_seats": 164
+  },
+  {
+    "airplane_id": 92,
+    "airline": "Vistara",
+    "model": "Airbus A319",
+    "max_seats": 132
+  },
+  {
+    "airplane_id": 93,
+    "airline": "Vistara",
+    "model": "Airbus A320neo",
+    "max_seats": 164
+  },
+  {
+    "airplane_id": 94,
+    "airline": "Vistara",
+    "model": "Airbus A321neo",
+    "max_seats": 220
+  },
+  {
+    "airplane_id": 95,
+    "airline": "Vistara",
+    "model": "Boeing 737-800",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 96,
+    "airline": "SpiceJet",
+    "model": "Boeing 737 MAX",
+    "max_seats": 197
+  },
+  {
+    "airplane_id": 97,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-700",
+    "max_seats": 148
+  },
+  {
+    "airplane_id": 99,
+    "airline": "SpiceJet",
+    "model": "Boeing 737-900",
+    "max_seats": 215
+  },
+  {
+    "airplane_id": 100,
+    "airline": "SpiceJet",
+    "model": "Q400",
+    "max_seats": 78
+  },
+  {
+    "airplane_id": 4103,
+    "airline": "IndiGo",
+    "model": "A330",
+    "max_seats": 100
+  },
+  {
+    "airplane_id": 3156,
+    "airline": "IndiGo",
+    "model": "AIRBUS 320X",
+    "max_seats": 186
+  },
+  {
+    "airplane_id": 8261,
+    "airline": "Vistara",
+    "model": "A235",
+    "max_seats": 110
+  },
+  {
+    "airplane_id": 6030,
+    "airline": "Vistara",
+    "model": "A236",
+    "max_seats": 1
+  },
+  {
+    "airplane_id": 6776,
+    "airline": "myairline",
+    "model": "AIRBUS 320",
+    "max_seats": 102
+  }
+]

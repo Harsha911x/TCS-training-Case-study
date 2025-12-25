@@ -1,0 +1,426 @@
+[
+  {
+    "payment_id": 1,
+    "booking_id": 301,
+    "amount": 3500,
+    "method": "UPI",
+    "transaction_id": "TXN1764777852971735",
+    "payment_status": "success",
+    "timestamp": "2025-12-03T16:04:12.971Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 2,
+    "booking_id": 302,
+    "amount": 4183,
+    "method": "Card",
+    "transaction_id": "TXN1764779064903779",
+    "payment_status": "refund_pending",
+    "timestamp": "2025-12-03T16:24:24.903Z",
+    "refund_eta_days": 3
+  },
+  {
+    "payment_id": 3,
+    "booking_id": 303,
+    "amount": 4183,
+    "method": "Card",
+    "transaction_id": "TXN1764779334309934",
+    "payment_status": "success",
+    "timestamp": "2025-12-03T16:28:54.309Z"
+  },
+  {
+    "payment_id": 4,
+    "booking_id": 304,
+    "amount": 4183,
+    "method": "UPI",
+    "transaction_id": "TXN176477969965893",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-03T16:34:59.658Z",
+    "refund_timestamp": "2025-12-03T16:35:23.454Z"
+  },
+  {
+    "payment_id": 5,
+    "booking_id": 305,
+    "amount": 4848,
+    "method": "UPI",
+    "transaction_id": "TXN1764780095097886",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-03T16:41:35.097Z",
+    "refund_timestamp": "2025-12-03T16:42:33.630Z"
+  },
+  {
+    "payment_id": 6,
+    "booking_id": 306,
+    "amount": 5900,
+    "method": "UPI",
+    "transaction_id": "TXN1764822512524740",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T04:28:32.524Z"
+  },
+  {
+    "payment_id": 7,
+    "booking_id": 307,
+    "amount": 5900,
+    "method": "UPI",
+    "transaction_id": "TXN1764823016866794",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T04:36:56.866Z"
+  },
+  {
+    "payment_id": 8,
+    "booking_id": 308,
+    "amount": 5200,
+    "method": "UPI",
+    "transaction_id": "TXN1764823260680106",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T04:41:00.680Z"
+  },
+  {
+    "payment_id": 9,
+    "booking_id": 309,
+    "amount": 5200,
+    "method": "UPI",
+    "transaction_id": "TXN176482490345350",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T05:08:23.453Z"
+  },
+  {
+    "payment_id": 10,
+    "booking_id": 310,
+    "amount": 3500,
+    "method": "UPI",
+    "transaction_id": "TXN1764825147981702",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T05:12:27.981Z"
+  },
+  {
+    "payment_id": 11,
+    "booking_id": 311,
+    "amount": 4100,
+    "method": "Wallet",
+    "transaction_id": "TXN1764827278198348",
+    "payment_status": "refund_pending",
+    "timestamp": "2025-12-04T05:47:58.198Z",
+    "refund_eta_days": 2
+  },
+  {
+    "payment_id": 12,
+    "booking_id": 312,
+    "amount": 4200,
+    "method": "UPI",
+    "transaction_id": "TXN1764839207788884",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T09:06:47.788Z"
+  },
+  {
+    "payment_id": 13,
+    "booking_id": 313,
+    "amount": 4200,
+    "method": "UPI",
+    "transaction_id": "TXN1764848038076714",
+    "payment_status": "success",
+    "timestamp": "2025-12-04T11:33:58.077Z"
+  },
+  {
+    "payment_id": 14,
+    "booking_id": 314,
+    "amount": 6200,
+    "method": "UPI",
+    "transaction_id": "TXN1764874603421184",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-04T18:56:43.421Z",
+    "refund_timestamp": "2025-12-04T18:57:16.917Z"
+  },
+  {
+    "payment_id": 15,
+    "booking_id": 315,
+    "amount": 10000,
+    "method": "UPI",
+    "transaction_id": "TXN1764904169216376",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T03:09:29.216Z"
+  },
+  {
+    "payment_id": 16,
+    "booking_id": 316,
+    "amount": 6200,
+    "method": "Card",
+    "transaction_id": "TXN1764915481471193",
+    "payment_status": "refund_pending",
+    "timestamp": "2025-12-05T06:18:01.471Z",
+    "refund_eta_days": 4
+  },
+  {
+    "payment_id": 17,
+    "booking_id": 317,
+    "amount": 6200,
+    "method": "UPI",
+    "transaction_id": "TXN1764923084104650",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T08:24:44.104Z"
+  },
+  {
+    "payment_id": 18,
+    "booking_id": 318,
+    "amount": 6200,
+    "method": "UPI",
+    "transaction_id": "TXN1764923775818711",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T08:36:15.818Z"
+  },
+  {
+    "payment_id": 19,
+    "booking_id": 319,
+    "amount": 6200,
+    "method": "UPI",
+    "transaction_id": "TXN1764923857759733",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T08:37:37.759Z"
+  },
+  {
+    "payment_id": 20,
+    "booking_id": 320,
+    "amount": 3900,
+    "method": "Card",
+    "transaction_id": "TXN1764926000201809",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T09:13:20.201Z"
+  },
+  {
+    "payment_id": 21,
+    "booking_id": 321,
+    "amount": 3900,
+    "method": "UPI",
+    "transaction_id": "TXN1764926030234470",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T09:13:50.234Z"
+  },
+  {
+    "payment_id": 22,
+    "booking_id": 322,
+    "amount": 6200,
+    "method": "Card",
+    "transaction_id": "TXN1764927218728531",
+    "payment_status": "refund_pending",
+    "timestamp": "2025-12-05T09:33:38.728Z",
+    "refund_eta_days": 2
+  },
+  {
+    "payment_id": 23,
+    "booking_id": 323,
+    "amount": 3900,
+    "method": "UPI",
+    "transaction_id": "TXN1764945477909871",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T14:37:57.909Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 24,
+    "booking_id": 324,
+    "amount": 7800,
+    "method": "Wallet",
+    "transaction_id": "TXN176494827574230",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:24:35.742Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 25,
+    "booking_id": 325,
+    "amount": 30264,
+    "method": "UPI",
+    "transaction_id": "TXN1764948341879430",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:25:41.879Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 26,
+    "booking_id": 326,
+    "amount": 43524,
+    "method": "UPI",
+    "transaction_id": "TXN1764948510691244",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:28:30.691Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 27,
+    "booking_id": 327,
+    "amount": 43524,
+    "method": "UPI",
+    "transaction_id": "TXN1764948739943219",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:32:19.943Z"
+  },
+  {
+    "payment_id": 28,
+    "booking_id": 328,
+    "amount": 30264,
+    "method": "UPI",
+    "transaction_id": "TXN1764949177334717",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:39:37.334Z"
+  },
+  {
+    "payment_id": 29,
+    "booking_id": 329,
+    "amount": 43524,
+    "method": "UPI",
+    "transaction_id": "TXN1764949309912589",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:41:49.912Z"
+  },
+  {
+    "payment_id": 30,
+    "booking_id": 330,
+    "amount": 30264,
+    "method": "UPI",
+    "transaction_id": "TXN1764949604050487",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T15:46:44.050Z",
+    "refund_eta_days": 0
+  },
+  {
+    "payment_id": 31,
+    "booking_id": 331,
+    "amount": 43524,
+    "method": "UPI",
+    "transaction_id": "TXN1764950736898452",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T16:05:36.898Z"
+  },
+  {
+    "payment_id": 32,
+    "booking_id": 337,
+    "amount": 7800,
+    "method": "UPI",
+    "transaction_id": "TXN1764951186561155",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T16:13:06.561Z"
+  },
+  {
+    "payment_id": 33,
+    "booking_id": 506,
+    "amount": 14375.4,
+    "method": "UPI",
+    "transaction_id": "TXN176495157150798",
+    "payment_status": "success",
+    "timestamp": "2025-12-05T16:19:31.507Z"
+  },
+  {
+    "payment_id": 34,
+    "booking_id": 508,
+    "amount": 45503.67,
+    "method": "UPI",
+    "transaction_id": "TXN1765212957564592",
+    "payment_status": "success",
+    "timestamp": "2025-12-08T16:55:57.564Z"
+  },
+  {
+    "payment_id": 35,
+    "booking_id": 510,
+    "amount": 45503.67,
+    "method": "UPI",
+    "transaction_id": "TXN1765213324459640",
+    "payment_status": "success",
+    "timestamp": "2025-12-08T17:02:04.459Z"
+  },
+  {
+    "payment_id": 36,
+    "booking_id": 512,
+    "amount": 45503.67,
+    "method": "UPI",
+    "transaction_id": "TXN1765213422191176",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-08T17:03:42.191Z",
+    "refund_timestamp": "2025-12-08T17:13:24.319Z"
+  },
+  {
+    "payment_id": 37,
+    "booking_id": 514,
+    "amount": 68255.5,
+    "method": "UPI",
+    "transaction_id": "TXN17652140823584",
+    "payment_status": "success",
+    "timestamp": "2025-12-08T17:14:42.358Z"
+  },
+  {
+    "payment_id": 38,
+    "booking_id": 517,
+    "amount": 3976,
+    "method": "UPI",
+    "transaction_id": "TXN176525282463611",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-09T04:00:24.636Z",
+    "refund_timestamp": "2025-12-09T04:00:47.294Z"
+  },
+  {
+    "payment_id": 39,
+    "booking_id": 518,
+    "amount": 17328.08,
+    "method": "Wallet",
+    "transaction_id": "TXN17652546364590",
+    "payment_status": "refund_pending",
+    "timestamp": "2025-12-09T04:30:36.459Z",
+    "refund_eta_days": 5
+  },
+  {
+    "payment_id": 40,
+    "booking_id": 520,
+    "amount": 7952,
+    "method": "UPI",
+    "transaction_id": "TXN1765261417010142",
+    "payment_status": "success",
+    "timestamp": "2025-12-09T06:23:37.010Z"
+  },
+  {
+    "payment_id": 41,
+    "booking_id": 521,
+    "amount": 24690,
+    "method": "UPI",
+    "transaction_id": "TXN1765263473006113",
+    "payment_status": "success",
+    "timestamp": "2025-12-09T06:57:53.006Z"
+  },
+  {
+    "payment_id": 42,
+    "booking_id": 522,
+    "amount": 24690,
+    "method": "UPI",
+    "transaction_id": "TXN1765263516775653",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-09T06:58:36.775Z",
+    "refund_timestamp": "2025-12-09T07:02:47.830Z"
+  },
+  {
+    "payment_id": 43,
+    "booking_id": 523,
+    "amount": 7952,
+    "method": "UPI",
+    "transaction_id": "TXN17653408971497",
+    "payment_status": "success",
+    "timestamp": "2025-12-10T04:28:17.149Z"
+  },
+  {
+    "payment_id": 44,
+    "booking_id": 524,
+    "amount": 8328,
+    "method": "UPI",
+    "transaction_id": "TXN17657804644544",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-15T06:34:24.454Z",
+    "refund_timestamp": "2025-12-15T07:01:22.109Z"
+  },
+  {
+    "payment_id": 45,
+    "booking_id": 525,
+    "amount": 15348.5,
+    "method": "UPI",
+    "transaction_id": "TXN1765786532382187",
+    "payment_status": "refunded",
+    "timestamp": "2025-12-15T08:15:32.382Z",
+    "refund_timestamp": "2025-12-15T08:17:10.296Z"
+  }
+]

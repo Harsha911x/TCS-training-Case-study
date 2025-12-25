@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* FORCE IMAGE + TEXT SIDE BY SIDE */
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  flex-wrap: nowrap; /* prevent text from dropping below the image */
+  margin-top: 30px;
+}
+
+/* IMAGE COLUMN */
+.contact-image {
+  width: 45%;         /* image takes 45% of width */
+  min-width: 350px;   /* ensure image doesn't shrink too much */
+  display: flex;
+  justify-content: center;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* TEXT COLUMN */
+.contact-text {
+  width: 70%;         /* text takes remaining width */
+}
+
+/* Stack vertically only on very small screens */
+@media (max-width: 800px) {
+  .contact-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-image,
+  .contact-text {
+    width: 100%;
+    min-width: 0;
+  }
+}

@@ -1,0 +1,125 @@
+/* ===== Background Image (Admin Login) ===== */
+.admin-bg {
+  background-image: url("../../../images/pexels-912050.jpg"); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+/* ===== Form Container ===== */
+.admin-form {
+  width: 100%;
+  max-width: 430px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 28px 26px 26px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+/* ===== Titles ===== */
+.admin-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #0d47a1;
+}
+
+.admin-subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #4b5563;
+  margin-bottom: 18px;
+}
+
+/* ===== Form group ===== */
+.admin-form-group {
+  margin-top: 10px;
+}
+
+/* ===== Labels ===== */
+.admin-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+/* ===== Inputs ===== */
+.admin-input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 9px 10px;
+  border: 1px solid #c4c4c4;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.admin-input::placeholder {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.admin-input:focus {
+  outline: none;
+  border-color: #0d47a1;
+  box-shadow: 0 0 0 2px rgba(13, 71, 161, 0.18);
+}
+
+/* ===== Button ===== */
+.admin-button-wrapper {
+  margin-top: 18px;
+}
+
+.admin-btn {
+  width: 100%;
+  border-radius: 999px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: #0d47a1;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-btn:hover {
+  background-color: #09316f;
+}
+
+/* ===== Forgot Password text ===== */
+.admin-forgot {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: right;
+  color: #374151;
+}
+
+.admin-link {
+  color: #0d47a1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.admin-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  .admin-form {
+    padding: 22px 18px 20px;
+  }
+}

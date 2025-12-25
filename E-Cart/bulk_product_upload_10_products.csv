@@ -1,0 +1,11 @@
+name,price,category,description,quantityAvailable,imageUrl,status
+Wireless Mouse Model X,19.99,ELECTRONICS,Ergonomic wireless mouse with adjustable DPI.,150,assets/products/prod-001.jpg,ACTIVE
+USB-C Fast Charger 30W,24.5,ELECTRONICS,Compact 30W USB-C charger with PD support.,300,assets/products/prod-002.jpg,ACTIVE
+Classic Cotton T-Shirt,12.0,CLOTHING,100% cotton unisex t-shirt.,500,assets/products/prod-003.jpg,ACTIVE
+Stainless Steel Water Bottle,15.0,SPORTS,Insulated water bottle keeps liquids cold for 12 hours.,200,assets/products/prod-004.jpg,ACTIVE
+Bluetooth Earbuds Pro,49.99,ELECTRONICS,Noise-cancelling true wireless earbuds with charging case.,120,assets/products/prod-005.jpg,ACTIVE
+Modern Table Lamp,39.99,HOME,Warm LED table lamp with adjustable brightness.,75,assets/products/prod-006.jpg,ACTIVE
+Organic Honey 500g,9.99,FOOD,Pure organic honey sourced from local farms.,180,assets/products/prod-007.jpg,ACTIVE
+Yoga Mat Pro 6mm,29.99,SPORTS,"Non-slip, high-density yoga mat for all exercises.",95,assets/products/prod-008.jpg,ACTIVE
+Kids Story Book – Jungle Tales,8.5,BOOKS,Illustrated storybook for children aged 4–8.,210,assets/products/prod-009.jpg,ACTIVE
+Rubber Dog Chew Toy,6.99,TOYS,"Durable chew toy for pets, safe and non-toxic.",160,assets/products/prod-010.jpg,ACTIVE

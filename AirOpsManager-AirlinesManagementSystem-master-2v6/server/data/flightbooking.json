@@ -1,0 +1,928 @@
+[
+  {
+    "fb_id": 1,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Netaji Subhas Chandra Bose International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "CCU"
+  },
+  {
+    "fb_id": 2,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-03",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 3,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 4,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 5,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 6,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 7,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 8,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Netaji Subhas Chandra Bose International Airport",
+    "departureDate": "2025-12-31",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "CCU"
+  },
+  {
+    "fb_id": 9,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "returnDate": "",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 10,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 11,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 12,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 13,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 14,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 15,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 16,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 17,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Chennai International Airport",
+    "departureDate": "2025-12-09",
+    "returnDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "MAA"
+  },
+  {
+    "fb_id": 18,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Rajiv Gandhi International Airport",
+    "departureDate": "2025-12-10",
+    "returnDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "HYD"
+  },
+  {
+    "fb_id": 19,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Chennai International Airport",
+    "departureDate": "2025-12-23",
+    "returnDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "MAA"
+  },
+  {
+    "fb_id": 20,
+    "departure": "Salonibari Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-18",
+    "class": "Economy",
+    "from_airport_code": "TEZ",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 21,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 22,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 23,
+    "departure": "Kempegowda International Airport",
+    "arrival": "Netaji Subhas Chandra Bose International Airport",
+    "departureDate": "2025-12-13",
+    "returnDate": "2025-12-12",
+    "class": "Economy",
+    "from_airport_code": "BLR",
+    "to_airport_code": "CCU"
+  },
+  {
+    "fb_id": 24,
+    "departure": "Kempegowda International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2026-05-01",
+    "class": "Economy",
+    "from_airport_code": "BLR",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 25,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 26,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 27,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 28,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 29,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "returnDate": "",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 30,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-04",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 31,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 32,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 33,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 34,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 35,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 36,
+    "departure": "Trivandrum International Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "TRV",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 37,
+    "departure": "Chhatrapati Shivaji Maharaj International Airport",
+    "arrival": "Lal Bahadur Shastri Airport",
+    "departureDate": "2026-01-01",
+    "class": "Economy",
+    "from_airport_code": "BOM",
+    "to_airport_code": "VNS"
+  },
+  {
+    "fb_id": 38,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2026-02-01",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 39,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 40,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2026-01-01",
+    "returnDate": "2026-01-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 41,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2026-01-01",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 42,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2026-01-01",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 43,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 44,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Netaji Subhas Chandra Bose International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "CCU"
+  },
+  {
+    "fb_id": 45,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 46,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 47,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 48,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 49,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 50,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 51,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 52,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 53,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 54,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 55,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-06",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 56,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 57,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 58,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 59,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 60,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 61,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 62,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 63,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 64,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 65,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 66,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 67,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 68,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 69,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-05",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 70,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-08",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 71,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 72,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 73,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 74,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 75,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 76,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Goa International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "GOI"
+  },
+  {
+    "fb_id": 77,
+    "departure": "Visakhapatnam Airport",
+    "arrival": "Indira Gandhi International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Economy",
+    "from_airport_code": "VTZ",
+    "to_airport_code": "DEL"
+  },
+  {
+    "fb_id": 78,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Kempegowda International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BLR"
+  },
+  {
+    "fb_id": 79,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 80,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-11",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 81,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-13",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 82,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-13",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 83,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "returnDate": "",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 84,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 85,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 86,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 87,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 88,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 89,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 90,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-09",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 91,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 92,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 93,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 94,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 95,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-12",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 96,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 97,
+    "departure": "Rajiv Gandhi International Airport",
+    "arrival": "Netaji Subhas Chandra Bose International Airport",
+    "departureDate": "2025-12-10",
+    "class": "Business",
+    "from_airport_code": "HYD",
+    "to_airport_code": "CCU"
+  },
+  {
+    "fb_id": 98,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-15",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 99,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Goa International Airport",
+    "departureDate": "2025-12-16",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "GOI"
+  },
+  {
+    "fb_id": 100,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Goa International Airport",
+    "departureDate": "2025-12-16",
+    "class": "Business",
+    "from_airport_code": "DEL",
+    "to_airport_code": "GOI"
+  },
+  {
+    "fb_id": 101,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2025-12-17",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  },
+  {
+    "fb_id": 102,
+    "departure": "Indira Gandhi International Airport",
+    "arrival": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureDate": "2026-01-02",
+    "class": "Economy",
+    "from_airport_code": "DEL",
+    "to_airport_code": "BOM"
+  }
+]

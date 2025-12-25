@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Full-width header */
+        .full-header {
+            width: 100%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 18px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .full-header h1 {
+            font-size: 1.9em;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .header-user {
+            font-size: 1.1em;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        /* Full-width navbar */
+        .full-navbar {
+            width: 100%;
+            background: white;
+            padding: 14px 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-light);
+            margin-bottom: 30px;
+            box-sizing: border-box;
+        }
+
+        .full-navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0;
+            margin: 0;
+        }
+
+        .full-navbar a {
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 17px;
+            font-weight: 600;
+            padding: 10px 20px;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+
+        .full-navbar a:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Keep your container for content ONLY */
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- FULL-WIDTH HEADER -->
+    <div class="full-header">
+        <h1>Museum Artifact Management Dashboard</h1>
+        <div class="header-user" id="headerUser">Welcome, User</div>
+    </div>
+
+    <!-- FULL-WIDTH NAVBAR -->
+    <nav class="full-navbar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="createArtifact.html">Create Artifact</a></li>
+            <li><a href="searchArtifact.html">Search Artifacts</a></li>
+            <li><a href="logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <div class="content-container">
+        <div id="alertContainer"></div>
+
+        <div class="card">
+            <h2>All Artifacts</h2>
+            <div id="artifactsContainer">
+                <p>Loading artifacts...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // TEMPORARY — since username was NOT stored
+        document.getElementById("headerUser").innerText = "Welcome, User";
+
+        function showAlert(message, type) {
+            const container = document.getElementById('alertContainer');
+            container.innerHTML = `<div class="alert alert-${type}">${message}</div>`;
+            setTimeout(() => container.innerHTML = '', 5000);
+        }
+
+        async function loadArtifacts() {
+            try {
+                const response = await fetch('dashboard');
+                const data = await response.json();
+
+                if (data.success && data.data) {
+                    displayArtifacts(data.data);
+                } else {
+                    document.getElementById('artifactsContainer').innerHTML =
+                        '<p>No artifacts found. <a href="createArtifact.html">Create one now</a></p>';
+                }
+            } catch (error) {
+                document.getElementById('artifactsContainer').innerHTML =
+                    '<p class="alert alert-error">Error loading artifacts. Please refresh the page.</p>';
+            }
+        }
+
+        function displayArtifacts(artifacts) {
+            const container = document.getElementById('artifactsContainer');
+
+            if (artifacts.length === 0) {
+                container.innerHTML = '<p>No artifacts found. <a href="createArtifact.html">Create one now</a></p>';
+                return;
+            }
+
+            let html = '<div class="table-container"><table><thead><tr>' +
+                '<th>Code</th><th>Name</th><th>Category</th><th>Period</th><th>Location</th><th>Actions</th>' +
+                '</tr></thead><tbody>';
+
+            artifacts.forEach(artifact => {
+                html += `<tr>
+                    <td>${escapeHtml(artifact.artifactCode || 'N/A')}</td>
+                    <td>${escapeHtml(artifact.artifactName || 'N/A')}</td>
+                    <td>${escapeHtml(artifact.category || 'N/A')}</td>
+                    <td>${escapeHtml(artifact.period || 'N/A')}</td>
+                    <td>${escapeHtml(artifact.location || 'N/A')}</td>
+                    <td>
+                        <a href="viewArtifact.html?id=${artifact.artifactId}" class="btn btn-primary" style="padding: 5px 10px; font-size: 14px;">View</a>
+                        <a href="updateArtifact.html?id=${artifact.artifactId}" class="btn btn-success" style="padding: 5px 10px; font-size: 14px;">Edit</a>
+                        <button onclick="deleteArtifact(${artifact.artifactId})" class="btn btn-danger" style="padding: 5px 10px; font-size: 14px;">Delete</button>
+                    </td>
+                </tr>`;
+            });
+
+            html += '</tbody></table></div>';
+            container.innerHTML = html;
+        }
+
+        async function deleteArtifact(artifactId) {
+            if (!confirm('Are you sure you want to delete this artifact?')) return;
+
+            try {
+                const formData = new URLSearchParams();
+                formData.append('artifactId', artifactId);
+
+                const response = await fetch('deleteArtifact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: formData.toString()
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showAlert(data.message, 'success');
+                    loadArtifacts();
+                } else {
+                    showAlert(data.error, 'error');
+                }
+            } catch (error) {
+                showAlert('Error deleting artifact', 'error');
+            }
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Load artifacts immediately
+        loadArtifacts();
+    </script>
+</body>
+</html>

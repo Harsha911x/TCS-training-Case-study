@@ -1,0 +1,380 @@
+[
+  {
+    "flight_no": 1001,
+    "seat_no": "1A",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1201,
+    "seat_no": "1F",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1201,
+    "seat_no": "6F",
+    "status": "booked",
+    "booking_id": 303
+  },
+  {
+    "flight_no": 1348,
+    "seat_no": "7F",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 3003,
+    "seat_no": "20D",
+    "status": "booked",
+    "booking_id": 306
+  },
+  {
+    "flight_no": 3003,
+    "seat_no": "19D",
+    "status": "booked",
+    "booking_id": 307
+  },
+  {
+    "flight_no": 3002,
+    "seat_no": "1F",
+    "status": "booked",
+    "booking_id": 308
+  },
+  {
+    "flight_no": 3002,
+    "seat_no": "1D",
+    "status": "booked",
+    "booking_id": 309
+  },
+  {
+    "flight_no": 2001,
+    "seat_no": "1D",
+    "status": "booked",
+    "booking_id": 310
+  },
+  {
+    "flight_no": 2002,
+    "seat_no": "1D",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1002,
+    "seat_no": "1E",
+    "status": "booked",
+    "booking_id": 312
+  },
+  {
+    "flight_no": 1002,
+    "seat_no": "30B",
+    "status": "booked",
+    "booking_id": 313
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "10A",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 8894,
+    "seat_no": "5A",
+    "status": "booked",
+    "booking_id": 315
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "21A",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "6B",
+    "status": "booked",
+    "booking_id": 317
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "5E",
+    "status": "booked",
+    "booking_id": 318
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "6E",
+    "status": "booked",
+    "booking_id": 319
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3D",
+    "status": "booked",
+    "booking_id": 320
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4D",
+    "status": "booked",
+    "booking_id": 321
+  },
+  {
+    "flight_no": 1006,
+    "seat_no": "6F",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3E",
+    "status": "booked",
+    "booking_id": 328
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3F",
+    "status": "held",
+    "booking_id": 328
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1F",
+    "status": "held",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1E",
+    "status": "held",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2E",
+    "status": "held",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2F",
+    "status": "held",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1D",
+    "status": "booked",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2D",
+    "status": "held",
+    "booking_id": 327
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4F",
+    "status": "held",
+    "booking_id": 328
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4E",
+    "status": "held",
+    "booking_id": 328
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1C",
+    "status": "booked",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1B",
+    "status": "held",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "1A",
+    "status": "held",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2A",
+    "status": "held",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2B",
+    "status": "held",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "2C",
+    "status": "held",
+    "booking_id": 329
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "5F",
+    "status": "booked",
+    "booking_id": 506
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "5E",
+    "status": "booked",
+    "booking_id": 507
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "5D",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "5C",
+    "status": "booked",
+    "booking_id": 337
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3A",
+    "status": "booked",
+    "booking_id": 331
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4A",
+    "status": "booked",
+    "booking_id": 332
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4B",
+    "status": "booked",
+    "booking_id": 333
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3B",
+    "status": "booked",
+    "booking_id": 334
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "3C",
+    "status": "booked",
+    "booking_id": 335
+  },
+  {
+    "flight_no": 1005,
+    "seat_no": "4C",
+    "status": "booked",
+    "booking_id": 336
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "1E",
+    "status": "booked",
+    "booking_id": 508
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "1F",
+    "status": "booked",
+    "booking_id": 509
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "2F",
+    "status": "booked",
+    "booking_id": 510
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "2E",
+    "status": "booked",
+    "booking_id": 514
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "3F",
+    "status": "booked",
+    "booking_id": 521
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "3E",
+    "status": "booked",
+    "booking_id": 513
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "4F",
+    "status": "booked",
+    "booking_id": 516
+  },
+  {
+    "flight_no": 10006,
+    "seat_no": "25F",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 10014,
+    "seat_no": "1E",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 10014,
+    "seat_no": "1D",
+    "status": "booked",
+    "booking_id": 519
+  },
+  {
+    "flight_no": 10006,
+    "seat_no": "1E",
+    "status": "booked",
+    "booking_id": 520
+  },
+  {
+    "flight_no": 7823,
+    "seat_no": "4E",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 10006,
+    "seat_no": "1F",
+    "status": "booked",
+    "booking_id": 523
+  },
+  {
+    "flight_no": 10021,
+    "seat_no": "1F",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 10021,
+    "seat_no": "1A",
+    "status": "available",
+    "booking_id": null
+  },
+  {
+    "flight_no": 10021,
+    "seat_no": "1B",
+    "status": "available",
+    "booking_id": null
+  }
+]

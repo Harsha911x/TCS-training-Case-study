@@ -1,0 +1,266 @@
+/* Frosted glass navbar wrapper */
+.frosted-nav {
+  width: 100%;
+  padding: 12px 0;
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Navbar container for perfect spacing */
+.custom-nav-container {
+  width: 92%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.nav-logo {
+  height: 55px;
+  cursor: pointer;
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.35));
+}
+
+/* Navigation links */
+.custom-nav-links {
+  display: flex;
+  gap: 22px;
+}
+
+.custom-nav-links a {
+  padding: 10px 14px;
+  font-weight: 600;
+  color: white !important;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.custom-nav-links a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(3px);
+}
+
+/* Logout button */
+.logout-btn {
+  background: #ff4e4e;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: white !important;
+}
+
+.logout-btn:hover {
+  background: #ff1f1f;
+}
+
+/* MOBILE NAV */
+@media (max-width: 768px) {
+  .custom-nav-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .custom-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-logo {
+    height: 45px;
+  }
+}
+
+
+
+
+.profile-page {
+  min-height: calc(100vh - 64px); /* adjust if your navbar height differs */
+  background-image: 
+    url("../../../images/pexels-912050.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin-top: 90px;
+
+  display: flex;
+  align-items: center;
+  padding: 40px 16px;
+}
+
+/* Center container */
+/* .profile-container {
+  max-width: 960px;
+} */
+
+/* Profile card */
+/* .profile-card {
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
+  background-color: #ffffff;
+} */
+
+/* Header layout */
+.profile-header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Avatar */
+.profile-avatar-wrapper {
+  flex-shrink: 0;
+}
+
+.profile-avatar {
+  width: 190px;
+  height: 220px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
+}
+
+/* Name & contact */
+.profile-main-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.profile-tagline {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+/* Contact grid */
+.profile-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px 18px;
+}
+
+.profile-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.profile-value {
+  font-size: 14px;
+  color: #1f2937;
+  font-weight: 500;
+  margin: 2px 0 0;
+}
+
+/* Divider */
+.profile-divider {
+  margin: 20px 0 16px;
+  border-color: #e5e7eb;
+}
+
+/* Buttons row */
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+/* Base button */
+.btn-profile {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+/* Update button */
+.btn-update {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.28);
+}
+
+.btn-update:hover {
+  filter: brightness(1.05);
+}
+
+/* Delete button */
+.btn-delete {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.btn-delete:hover {
+  background: #fecaca;
+}
+
+/* Back button */
+.btn-secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.btn-secondary:hover {
+  background: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 24px 12px;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-avatar {
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+  }
+
+  .profile-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-actions {
+    justify-content: flex-start;
+  }
+}
+
+
+.profile-container {
+  max-width: 98%;   /* was 960px */
+  width: 1400px;        /* fills almost entire screen */
+  margin: 0px;    /* center it */
+}
+
+.profile-card {
+  width: 1400px;               /* take full space of container */
+  max-width: 1400px;         /* prevent huge stretching on ultra-wide monitors */
+  margin: 0px;              /* keep centered */
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
+}
+

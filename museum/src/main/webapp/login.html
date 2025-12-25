@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Popup Background */
+        #popupOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(3px);
+            z-index: 9999;
+        }
+
+        /* Popup Box */
+        #popupBox {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        #popupBox h2 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        #popupBox p {
+            margin-bottom: 20px;
+        }
+
+        #popupBtn {
+            background: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #popupBtn:hover {
+            background: #256628;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Popup Overlay -->
+    <div id="popupOverlay">
+        <div id="popupBox">
+            <h2 id="popupTitle">Success</h2>
+            <p id="popupMessage"></p>
+            <button id="popupBtn" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Login</h1>
+        </div>
+        
+        <div class="form-container">
+
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="username">Username *</label>
+                    <input type="text" id="username" name="username" required minlength="3" maxlength="50">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" name="password" required minlength="6" maxlength="100">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button>
+                </div>
+            </form>
+            
+            <div class="text-center mt-20">
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+                <p><a href="index.html">Back to Home</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Show Popup Function
+        function showPopup(title, message, redirect = null) {
+            document.getElementById("popupTitle").innerText = title;
+            document.getElementById("popupMessage").innerText = message;
+
+            document.getElementById("popupOverlay").style.display = "flex";
+
+            // Store redirect page if needed
+            window.nextPage = redirect;
+        }
+
+        // Close Popup
+        function closePopup() {
+            document.getElementById("popupOverlay").style.display = "none";
+
+            // Redirect after OK
+            if (window.nextPage) {
+                window.location.href = window.nextPage;
+            }
+        }
+
+        // Handle Login
+        async function handleLogin(event) {
+            event.preventDefault();
+            
+            const params = new URLSearchParams();
+            params.append("username", username.value);
+            params.append("password", password.value);
+
+            try {
+                const response = await fetch("login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: params.toString()
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                	
+                    showPopup("Login Successful", data.message || "Welcome!", "dashboard.html");
+                } else {
+                    showPopup("Login Failed", data.error || "Incorrect username or password");
+                }
+
+            } catch (error) {
+                showPopup("Error", "Something went wrong. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

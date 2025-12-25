@@ -1,0 +1,254 @@
+<div class="analytics-page">
+  <app-navbar [role]="'admin'" [userName]="adminName" (signOut)="logout()"></app-navbar>
+
+  <div class="content">
+    <div class="container">
+      <div class="header-row">
+        <h1>Analytics Dashboard</h1>
+        <div class="period-selector">
+          <label>Period:</label>
+          <select [(ngModel)]="selectedPeriod" (change)="onPeriodChange()" class="period-select">
+            <option *ngFor="let period of periods" [value]="period.value">{{ period.label }}</option>
+          </select>
+        </div>
+      </div>
+
+      <div *ngIf="isLoading" class="loading">Loading analytics...</div>
+
+      <div *ngIf="!isLoading && analytics">
+        <!-- Overview / Executive Summary -->
+        <section class="analytics-section">
+          <h2>Overview / Executive Summary</h2>
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-label">Revenue Today</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.revenueToday) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Revenue (Week)</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.revenueWeek) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Revenue (Month)</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.revenueMonth) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Revenue (MTD)</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.revenueMTD) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Revenue (YTD)</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.revenueYTD) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Total Orders</div>
+              <div class="kpi-value">{{ formatNumber(analytics.overview?.ordersCount) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Average Order Value</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.averageOrderValue) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Active Users</div>
+              <div class="kpi-value">{{ formatNumber(analytics.overview?.activeUsers) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Refunds Amount</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.refundsAmount) }}</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Returns Amount</div>
+              <div class="kpi-value">{{ formatCurrency(analytics.overview?.returnsAmount) }}</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sales & Revenue -->
+        <section class="analytics-section">
+          <h2>Sales & Revenue</h2>
+          <div class="stats-row">
+            <div class="stat-box">
+              <div class="stat-label">Total Sales</div>
+              <div class="stat-value">{{ formatCurrency(analytics.sales?.totalSales) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Net Sales</div>
+              <div class="stat-value">{{ formatCurrency(analytics.sales?.netSales) }}</div>
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <h3>Top Products by Revenue</h3>
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Revenue</th>
+                  <th>Quantity Sold</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of analytics.sales?.topProductsByRevenue">
+                  <td>{{ product.productName }}</td>
+                  <td>{{ formatCurrency(product.revenue) }}</td>
+                  <td>{{ formatNumber(product.quantitySold) }}</td>
+                  <td>{{ formatCurrency(product.price) }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Orders & Fulfillment -->
+        <section class="analytics-section">
+          <h2>Orders & Fulfillment</h2>
+          <div class="stats-row">
+            <div class="stat-box">
+              <div class="stat-label">Total Orders</div>
+              <div class="stat-value">{{ formatNumber(analytics.orders?.totalOrders) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Avg Time to Ship</div>
+              <div class="stat-value">{{ analytics.orders?.averageTimeToShip?.toFixed(1) }} days</div>
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <h3>Orders by Status</h3>
+            <div class="status-bars">
+              <div *ngFor="let dist of analytics.orders?.statusDistribution" class="status-bar">
+                <div class="status-bar-label">
+                  <span [style.color]="getStatusColor(dist.status)">{{ dist.status }}</span>
+                  <span>{{ formatNumber(dist.count) }} ({{ formatPercentage(dist.percentage) }})</span>
+                </div>
+                <div class="status-bar-fill">
+                  <div [style.width.%]="dist.percentage" [style.background-color]="getStatusColor(dist.status)"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <h3>Conversion Funnel</h3>
+            <div class="funnel">
+              <div class="funnel-step">
+                <div class="funnel-label">Paid Orders</div>
+                <div class="funnel-value">{{ formatNumber(analytics.orders?.conversionFunnel?.paidOrders) }}</div>
+              </div>
+              <div class="funnel-step">
+                <div class="funnel-label">Shipped Orders</div>
+                <div class="funnel-value">{{ formatNumber(analytics.orders?.conversionFunnel?.shippedOrders) }}</div>
+                <div class="funnel-rate">{{ formatPercentage(analytics.orders?.conversionFunnel?.paidToShippedRate) }}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Products & Catalog Analytics -->
+        <section class="analytics-section">
+          <h2>Products & Catalog Analytics</h2>
+          <div class="chart-container">
+            <h3>Top Sellers by Revenue</h3>
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Revenue</th>
+                  <th>Quantity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of analytics.products?.topSellersByRevenue">
+                  <td>{{ product.productName }}</td>
+                  <td>{{ formatCurrency(product.revenue) }}</td>
+                  <td>{{ formatNumber(product.quantitySold) }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="chart-container" *ngIf="hasLowStockProducts()">
+            <h3>Low Stock Products</h3>
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Available Quantity</th>
+                  <th>Threshold</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of analytics.products?.lowStockProducts">
+                  <td>{{ product.productName }}</td>
+                  <td class="low-stock">{{ formatNumber(product.quantityAvailable) }}</td>
+                  <td>{{ formatNumber(product.threshold) }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Customer Analytics -->
+        <section class="analytics-section">
+          <h2>Customer Analytics</h2>
+          <div class="stats-row">
+            <div class="stat-box">
+              <div class="stat-label">New Customers</div>
+              <div class="stat-value">{{ formatNumber(analytics.customers?.newCustomers) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Returning Customers</div>
+              <div class="stat-value">{{ formatNumber(analytics.customers?.returningCustomers) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Average LTV</div>
+              <div class="stat-value">{{ formatCurrency(analytics.customers?.averageLTV) }}</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Payments & Fraud -->
+        <section class="analytics-section">
+          <h2>Payments & Fraud</h2>
+          <div class="stats-row">
+            <div class="stat-box">
+              <div class="stat-label">Payment Success Rate</div>
+              <div class="stat-value">{{ formatPercentage(analytics.payments?.successRate) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Failed Payments</div>
+              <div class="stat-value">{{ formatNumber(analytics.payments?.failedPayments) }}</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Returns & Refunds -->
+        <section class="analytics-section">
+          <h2>Returns & Refunds</h2>
+          <div class="stats-row">
+            <div class="stat-box">
+              <div class="stat-label">Return Rate</div>
+              <div class="stat-value">{{ formatPercentage(analytics.returns?.returnRate) }}</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Refund Amount</div>
+              <div class="stat-value">{{ formatCurrency(analytics.returns?.refundAmount) }}</div>
+            </div>
+          </div>
+
+          <div class="chart-container" *ngIf="hasCancellationReasons()">
+            <h3>Cancellation Reasons</h3>
+            <div class="reasons-list">
+              <div *ngFor="let reason of analytics.returns?.reasonsDistribution | keyvalue" class="reason-item">
+                <span class="reason-name">{{ reason.key }}</span>
+                <span class="reason-count">{{ formatNumber(reason.value) }}</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+

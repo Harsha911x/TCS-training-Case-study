@@ -1,0 +1,282 @@
+.analytics-page {
+  min-height: 100vh;
+  background: #EAEDED;
+}
+
+.content {
+  padding: 24px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header-row h1 {
+  color: #111;
+  font-weight: 500;
+  margin: 0;
+}
+
+.period-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.period-selector label {
+  font-weight: 500;
+  color: #666;
+}
+
+.period-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.analytics-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.analytics-section h2 {
+  color: #111;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.kpi-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid #007bff;
+}
+
+.kpi-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-box {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+}
+
+.chart-container {
+  margin-top: 24px;
+}
+
+.chart-container h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.data-table thead {
+  background: #f8f9fa;
+}
+
+.data-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+  color: #666;
+}
+
+.data-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.status-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.status-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-bar-fill {
+  height: 24px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.status-bar-fill > div {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.funnel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.funnel-step {
+  width: 100%;
+  max-width: 400px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.funnel-step:not(:last-child)::after {
+  content: '↓';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #007bff;
+}
+
+.funnel-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.funnel-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+}
+
+.funnel-rate {
+  font-size: 12px;
+  color: #28a745;
+  margin-top: 8px;
+}
+
+.reasons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reason-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.reason-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.reason-count {
+  color: #666;
+}
+
+.low-stock {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+

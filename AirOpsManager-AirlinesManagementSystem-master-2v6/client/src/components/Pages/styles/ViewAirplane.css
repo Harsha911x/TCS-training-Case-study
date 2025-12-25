@@ -1,0 +1,47 @@
+.view-wrapper {
+  margin-left: 260px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.view-card {
+  width: 420px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+}
+
+.view-header {
+  text-align: center;
+}
+
+.airline-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.view-header h2 {
+  margin: 0;
+  font-size: 26px;
+  color: #1e293b;
+}
+
+.view-body p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #334155;
+}
+
+.back-btn-view {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background: #d1d5db;
+  color: #1f2937;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}

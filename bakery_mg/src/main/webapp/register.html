@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bakery Management System</title>
+</head>
+<body>
+	<h1 align="center">Bakery Management System</h1>
+	<hr>
+	<h2 align="center">Item Registration</h2>
+
+	<form action="BakeryServlet" method="post">
+		<table border="0" align="center" width="40%">
+			<tr>
+				<td>Item Id</td>
+				<td><input type="text" name="ItemId" required></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name" required></td>
+			</tr>
+			<tr>
+				<td>Price</td>
+				<td><input type="text" name="price"></td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td><input type="text" name="category"></td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td><input type="text" name="description"></td>
+			</tr>
+			<tr>
+				<td>Quantity</td>
+				<td><input type="text" name="stockquantity"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="action" value="Register">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

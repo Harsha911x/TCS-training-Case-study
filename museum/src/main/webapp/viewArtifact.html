@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Artifact - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- FULL HEADER -->
+    <div class="header">
+        <h1 id="pageTitle">View Artifact</h1>
+        <div class="header-right" id="headerUser">Welcome, User</div>
+    </div>
+
+    <!-- FULL NAVBAR -->
+    <div class="navbar-wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="createArtifact.html">Create Artifact</a></li>
+                <li><a href="searchArtifact.html">Search Artifacts</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="card">
+        <h2 id="artifactTitle">Loading...</h2>
+
+        <div id="artifactDetails">
+            <p>Loading...</p>
+        </div>
+
+        <div class="actions mt-20">
+            <a id="editBtn" class="btn btn-success">Edit Artifact</a>
+            <a href="dashboard.html" class="btn btn-secondary">Back</a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById("pageTitle").innerText = "View Artifact";
+
+document.getElementById("headerUser").innerText =
+    "Welcome, " + (localStorage.getItem("username") || "User");
+
+// Load artifact details
+async function loadArtifact() {
+    const id = new URLSearchParams(window.location.search).get("id");
+
+    if (!id) {
+        document.getElementById("artifactDetails").innerHTML =
+            "<p class='alert alert-error'>Artifact ID missing</p>";
+        return;
+    }
+
+    document.getElementById("editBtn").href = "updateArtifact.html?id=" + id;
+
+    const response = await fetch("viewArtifact?artifactId=" + id);
+    const data = await response.json();
+
+    if (!data.success || !data.data) {
+        document.getElementById("artifactDetails").innerHTML =
+            "<p class='alert alert-error'>Artifact not found</p>";
+        return;
+    }
+
+    const a = data.data;
+
+    document.getElementById("artifactTitle").innerText = a.artifactName;
+
+    let html = `
+        <div class="info-row"><span class="info-label">Artifact Code:</span> <span class="info-value">${a.artifactCode}</span></div>
+        <div class="info-row"><span class="info-label">Category:</span> <span class="info-value">${a.category}</span></div>
+        <div class="info-row"><span class="info-label">Description:</span> <span class="info-value">${a.description || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Period:</span> <span class="info-value">${a.period || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Origin:</span> <span class="info-value">${a.origin || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Material:</span> <span class="info-value">${a.material || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Dimensions:</span> <span class="info-value">${a.dimensions || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Condition:</span> <span class="info-value">${a.conditionStatus || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Acquisition Date:</span> <span class="info-value">${a.acquisitionDate || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Acquisition Method:</span> <span class="info-value">${a.acquisitionMethod || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Location:</span> <span class="info-value">${a.location || "N/A"}</span></div>
+        <div class="info-row"><span class="info-label">Estimated Value:</span> <span class="info-value">${a.value || "N/A"}</span></div>
+    `;
+
+    document.getElementById("artifactDetails").innerHTML = html;
+}
+
+loadArtifact();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+/* Root wrapper around page content (right of sidebar) */
+.airplane-page {
+  margin-left: 260px;             /* same space as sidebar */
+  padding: 28px 32px;
+  min-height: 100vh;
+  background: #f1f5f9;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Top hero card (IndiGo / MMT style) */
+.airplane-hero {
+  background: linear-gradient(135deg, #1d4ed8, #4f46e5);
+  border-radius: 18px;
+  padding: 18px 22px;
+  color: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.25);
+}
+
+.airplane-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.airplane-subtitle {
+  margin: 4px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Small stat pills on the right */
+.airplane-stats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.stat-pill {
+  background: rgba(15, 23, 42, 0.22);
+  border-radius: 999px;
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: column;
+  min-width: 110px;
+}
+
+.stat-label {
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.stat-value {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Actions row: search + sort + add */
+.airplane-actions-row {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.airplane-actions-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.airplane-search,
+.airplane-sort {
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  font-size: 14px;
+  outline: none;
+  min-width: 220px;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.airplane-search:focus,
+.airplane-sort:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+.airplane-sort {
+  min-width: 150px;
+}
+
+/* Add button (IndiGo blue) */
+.airplane-add-btn {
+  background: #0f60ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.airplane-add-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.4);
+}
+
+/* Airline summary chips row */
+.airline-summary-strip {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.summary-empty {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.summary-chip {
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 6px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.chip-airline {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.chip-count {
+  font-size: 12px;
+  color: #2563eb;
+}
+
+/* Use existing .table-wrapper & .client-table from Tables.css */
+/* Just tighten up margins for this page */
+.table-wrapper {
+  margin-top: 12px;
+}
+
+/* Small responsive tweaks */
+@media (max-width: 1024px) {
+  .airplane-page {
+    margin-left: 0;
+    padding: 18px 14px;
+  }
+
+  .airplane-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .airplane-actions-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .airplane-actions-left {
+    width: 100%;
+  }
+
+  .airplane-search,
+  .airplane-sort {
+    flex: 1;
+  }
+}

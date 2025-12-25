@@ -1,0 +1,45 @@
+<header class="header">
+  <div class="header-content">
+    <a routerLink="/" class="logo">
+      <span class="logo-text">E-Cart</span>
+    </a>
+
+    <div class="search-bar-header">
+      <input 
+        type="text" 
+        [(ngModel)]="searchTerm" 
+        placeholder="Search products..." 
+        class="search-input"
+        (keyup.enter)="onSearchKeyPress($event)"
+      />
+      <button class="btn-search" (click)="search()" aria-label="Search">
+        <span class="search-icon">🔍</span>
+      </button>
+    </div>
+
+    <div class="nav-menu">
+      <div class="login-dropdown" (click)="$event.stopPropagation()">
+        <button 
+          class="login-btn" 
+          (click)="toggleLoginDropdown()"
+          [class.active]="showLoginDropdown"
+          aria-label="Login options"
+        >
+          <span class="login-icon">👤</span>
+          <span class="login-text">Login</span>
+          <span class="dropdown-arrow" [class.rotated]="showLoginDropdown">▼</span>
+        </button>
+        <div class="dropdown-menu" [class.show]="showLoginDropdown">
+          <a class="dropdown-item" routerLink="/login" (click)="closeLoginDropdown()">
+            <span class="item-icon">👤</span>
+            <span>Login as Customer</span>
+          </a>
+          <a class="dropdown-item" routerLink="/admin/login" (click)="closeLoginDropdown()">
+            <span class="item-icon">🔐</span>
+            <span>Login as Admin</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    
+    <display-name>Museum Artifact Management System</display-name>
+    
+    <!-- Database Initialization Servlet -->
+    <servlet>
+        <servlet-name>DatabaseInit</servlet-name>
+        <servlet-class>com.museum.util.DatabaseInitializer</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <!-- Register Servlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.museum.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.museum.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Logout Servlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.museum.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Dashboard Servlet -->
+    <servlet>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>com.museum.servlet.DashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Create Artifact Servlet -->
+    <servlet>
+        <servlet-name>CreateArtifactServlet</servlet-name>
+        <servlet-class>com.museum.servlet.CreateArtifactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateArtifactServlet</servlet-name>
+        <url-pattern>/createArtifact</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Search Artifact Servlet -->
+    <servlet>
+        <servlet-name>SearchArtifactServlet</servlet-name>
+        <servlet-class>com.museum.servlet.SearchArtifactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchArtifactServlet</servlet-name>
+        <url-pattern>/searchArtifact</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Artifact Servlet -->
+    <servlet>
+        <servlet-name>ViewArtifactServlet</servlet-name>
+        <servlet-class>com.museum.servlet.ViewArtifactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewArtifactServlet</servlet-name>
+        <url-pattern>/viewArtifact</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Artifact Servlet -->
+    <servlet>
+        <servlet-name>UpdateArtifactServlet</servlet-name>
+        <servlet-class>com.museum.servlet.UpdateArtifactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateArtifactServlet</servlet-name>
+        <url-pattern>/updateArtifact</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Artifact Servlet -->
+    <servlet>
+        <servlet-name>DeleteArtifactServlet</servlet-name>
+        <servlet-class>com.museum.servlet.DeleteArtifactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArtifactServlet</servlet-name>
+        <url-pattern>/deleteArtifact</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Welcome File -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+    <!-- Session Timeout -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+</web-app>
+

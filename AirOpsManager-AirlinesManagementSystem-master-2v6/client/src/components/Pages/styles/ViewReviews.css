@@ -1,0 +1,124 @@
+/* ViewReviews Page Styles */
+
+.view-reviews-loading,
+.view-reviews-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.view-reviews-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  margin-bottom: 20px;
+}
+
+.client-info-card {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(226, 232, 240, 0.9);
+}
+
+.client-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.info-item label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.info-item span {
+  font-size: 14px;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-item {
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  transition: all 0.2s ease;
+}
+
+.review-item:hover {
+  background: #f1f5f9;
+  box-shadow: 0 4px 8px rgba(15, 23, 42, 0.08);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.review-number {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.review-content {
+  color: #475569;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.review-content p {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .client-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+
+
+

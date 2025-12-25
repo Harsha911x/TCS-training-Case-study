@@ -1,0 +1,315 @@
+/* ---------------------- PAGE CONTAINER ---------------------- */
+
+.client-container {
+  padding: 20px 30px;
+  margin-left: 240px; /* sidebar offset */
+  font-family: "Inter", sans-serif;
+}
+
+/* ---------------------- HEADER ---------------------- */
+
+.client-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.client-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* ---------------------- ACTIONS ROW ---------------------- */
+
+.client-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* search / dropdowns */
+.client-search {
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background: #ffffff;
+  transition: 0.2s;
+}
+
+.client-search:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 2px #bae6fd;
+}
+
+/* add / export buttons */
+.client-add-btn {
+  background: #0ea5e9;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.client-add-btn:hover {
+  background: #0284c7;
+}
+
+/* ---------------------- FILTER ROW 2 ---------------------- */
+
+.filter-row {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ---------------------- TABLE ---------------------- */
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.client-table thead tr {
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+}
+
+.client-table th,
+.client-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+/* row hover */
+.client-table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+/* no data */
+.no-data {
+  text-align: center;
+  padding: 18px;
+  font-size: 15px;
+  color: #475569;
+}
+
+/* action buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-view {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-edit {
+  background: #3b82f6;
+}
+.btn-edit:hover {
+  background: #2563eb;
+}
+
+.btn-delete {
+  background: #ef4444;
+}
+.btn-delete:hover {
+  background: #dc2626;
+}
+
+.btn-view {
+  background: #475569;
+}
+.btn-view:hover {
+  background: #334155;
+}
+
+/* ---------------------- STATUS BADGES ---------------------- */
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-confirmed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-pending {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.status-cancelled {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* ---------------------- PAGINATION ---------------------- */
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  align-items: center;
+}
+
+.pagination-btn {
+  background: #3b82f6;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pagination-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.pagination-info {
+  font-size: 14px;
+  color: #475569;
+}
+
+/* ---------------------- RESPONSIVE ---------------------- */
+
+@media (max-width: 768px) {
+  .client-container {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .client-actions {
+    flex-wrap: wrap;
+  }
+
+  .client-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .client-table th,
+  .client-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* ---------------------- ADVANCED FILTERS TOGGLE ---------------------- */
+
+.filter-toggle {
+  margin: 15px 0;
+  padding: 10px 14px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.25s;
+}
+
+.filter-toggle:hover {
+  background: #cbd5e1;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.up {
+  transform: rotate(180deg);
+}
+
+/* ---------------------- FILTER PANEL ---------------------- */
+
+.filter-panel {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  animation: fadeOpen 0.3s ease;
+}
+
+@keyframes fadeOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 10px;
+}
+
+/* ---------------------- TABLE ROW ANIMATION ---------------------- */
+
+.fade-row {
+  animation: fadeInRow 0.4s ease both;
+}
+
+@keyframes fadeInRow {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* hover lift effect */
+.fade-row:hover {
+  transform: scale(1.01);
+  background: #f1f5f9 !important;
+  transition: 0.2s ease;
+}

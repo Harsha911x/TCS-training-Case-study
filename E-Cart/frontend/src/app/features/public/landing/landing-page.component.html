@@ -1,0 +1,139 @@
+<div class="landing-container" [class.loading]="isLoading">
+  <app-navbar *ngIf="isLanding()"></app-navbar>
+
+  <section class="hero-section" (mouseenter)="restartHeroRotation()" (mouseleave)="startHeroRotation()">
+    <div class="hero-slider">
+      <article
+        class="hero-slide"
+        *ngFor="let slide of heroSlides; let i = index"
+        [class.active]="i === heroIndex"
+        [style.backgroundImage]="'url(' + slide.imageUrl + ')'">
+        <div class="hero-gradient"></div>
+        <div class="hero-content">
+          <span class="hero-tag" *ngIf="slide.isDummy">Just In</span>
+          <h1>{{ slide.title }}</h1>
+          <p>{{ slide.subtitle }}</p>
+          <button class="hero-cta" (click)="exploreDeals()">{{ slide.cta }}</button>
+        </div>
+      </article>
+      <button class="hero-control prev" type="button" aria-label="Previous hero slide" (click)="previousHero()">‹</button>
+      <button class="hero-control next" type="button" aria-label="Next hero slide" (click)="nextHero()">›</button>
+    </div>
+    <div class="hero-indicators">
+      <button
+        *ngFor="let slide of heroSlides; let i = index"
+        type="button"
+        [class.active]="i === heroIndex"
+        (click)="selectHero(i)">
+      </button>
+    </div>
+  </section>
+
+  <section class="product-section spotlight">
+    <div class="section-header">
+      <div>
+        <h2>Today’s Spotlight</h2>
+        <p>Curated picks from our merchandisers — refreshed every morning.</p>
+      </div>
+      <button type="button" class="section-link" (click)="exploreDeals()">Explore all deals</button>
+    </div>
+    <div class="cards-grid">
+      <article class="product-card" *ngFor="let product of spotlightProducts; trackBy: trackByIndex">
+        <div class="badge" *ngIf="product.badge">{{ product.badge }}</div>
+        <div class="product-image">
+          <img [src]="product.imageUrl" [alt]="product.name">
+        </div>
+        <div class="product-info">
+          <h3>{{ product.name }}</h3>
+          <p class="description">{{ product.description }}</p>
+        </div>
+        <div class="product-footer">
+          <span class="price" *ngIf="product.price">₹{{ product.price | number:'1.0-0' }}</span>
+          <button type="button" class="primary" (click)="shopProduct(product)">Shop now</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="product-section deals">
+    <div class="section-header">
+      <div>
+        <h2>Top Deals For You</h2>
+        <p>Lightning discounts across bestselling categories.</p>
+      </div>
+    </div>
+    <div class="deal-strip">
+      <article class="deal-card" *ngFor="let product of topDeals; trackBy: trackByIndex">
+        <div class="image-wrapper">
+          <img [src]="product.imageUrl" [alt]="product.name">
+        </div>
+        <div class="deal-info">
+          <h3>{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <div class="deal-footer">
+            <span class="price" *ngIf="product.price">₹{{ product.price | number:'1.0-0' }}</span>
+            <button type="button" (click)="shopProduct(product)">Add to cart</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="product-section arrivals">
+    <div class="section-header">
+      <div>
+        <h2>Fresh Arrivals</h2>
+        <p>Handpicked trends and essentials you can’t miss.</p>
+      </div>
+      <button type="button" class="section-link" (click)="exploreDeals()">See what’s new</button>
+    </div>
+    <div class="cards-grid compact">
+      <article class="arrival-card" *ngFor="let product of newArrivals; trackBy: trackByIndex">
+        <div class="image-frame">
+          <img [src]="product.imageUrl" [alt]="product.name">
+        </div>
+        <div class="info">
+          <h3>{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <div class="meta">
+            <span class="category" *ngIf="product.category">{{ product.category | titlecase }}</span>
+            <span class="price" *ngIf="product.price">₹{{ product.price | number:'1.0-0' }}</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h4>About Us</h4>
+        <p>
+          E-Cart is your one-stop online store offering top-quality products at unbeatable prices.
+          We aim to provide a seamless shopping experience with trusted brands and secure payments.
+        </p>
+      </div>
+
+      <div class="footer-section services">
+        <h4>Our Services</h4>
+        <ul>
+          <li>Fast & Secure Delivery</li>
+          <li>Customer Support 24/7</li>
+          <li>Easy Returns & Refunds</li>
+          <li>Exclusive Member Discounts</li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h4>Contact Us</h4>
+        <p>Email: support&#64;ecart.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: 123 E-Cart Street, Mumbai, India</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {{ currentYear }} E-Cart. All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>

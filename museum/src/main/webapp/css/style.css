@@ -1,0 +1,312 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Museum Color Palette */
+:root {
+    --primary: #2B2A28;        /* Deep charcoal */
+    --secondary: #A8997E;      /* Antique stone */
+    --accent: #8C1D1D;         /* Museum heritage red */
+    --highlight: #CBBBA0;      /* Soft parchment */
+    --border-light: #E4DCCA;   /* Warm divider */
+    --bg: #F5F2EB;             /* Gallery cream */
+}
+
+/* Body */
+body {
+    font-family: "Cormorant Garamond", "Georgia", serif;
+    background: var(--bg);
+    min-height: 100vh;
+    padding: 20px;
+    color: var(--primary);
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+    padding: 24px;
+}
+
+/* Full width header */
+.header {
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 16px 24px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h1 {
+    font-size: 1.6rem; /* reduced size */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+}
+
+.header-right {
+    font-size: 0.95rem;
+    font-weight: 600;
+    opacity: 0.95;
+}
+.header h1,
+.card h2,
+.card h3,
+#pageTitle{
+	text-align: center;
+	width: 100%;
+}
+/* Full Width Navigation wrapper (used by dashboard & pages) */
+.navbar-wrapper {
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    margin-bottom: 18px;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 16px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.navbar a:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* Form Fields */
+.form-container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 6px 10px 30px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 15px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    background: #faf8f4;
+    font-size: 15px;
+    color: var(--primary);
+    transition: 0.18s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--accent);
+    outline: none;
+}
+
+/* Inline validation text under inputs */
+.field-hint {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: #6b6b6b;
+    min-height: 18px;
+}
+
+.field-hint.error {
+    color: #7a2f2f;
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-weight: 700;
+}
+
+.btn-primary { background: var(--primary); color: white; }
+.btn-primary:hover { background: #1f1e1c; }
+
+.btn-danger { background: #7A1A1A; color: white; }
+.btn-danger:hover { background: #5E1212; }
+
+.btn-success { background: #5F7A66; color: white; }
+.btn-success:hover { background: #4D6654; }
+
+.btn-secondary { background: var(--secondary); color: white; }
+.btn-secondary:hover { background: #8A7E67; }
+
+/* Alerts */
+.alert {
+    padding: 14px;
+    border-radius: 7px;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.alert-success {
+    background: #e8f3ec;
+    border: 1px solid #d5e7db;
+    color: #2e5a42;
+}
+
+.alert-error {
+    background: #f7e8e7;
+    border: 1px solid #e3c7c5;
+    color: #7a2f2f;
+}
+
+/* Table */
+.table-container {
+    overflow-x: auto;
+    margin-top: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 15px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+table th {
+    background: var(--primary);
+    color: white;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background: var(--highlight);
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 24px;
+    border: 1px solid var(--border-light);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    color: var(--accent);
+    font-size: 1.4em;
+}
+
+/* Artifact Card */
+.artifact-card {
+    border-left: 6px solid var(--accent);
+    padding-left: 16px;
+    transition: 0.25s ease;
+}
+
+.artifact-card:hover {
+    transform: translateX(6px);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-light);
+    color: var(--primary);
+    font-size: 15px;
+}
+
+/* Popup overlay (re-usable) */
+#popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+#popupBox {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    width: 360px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 6px 28px rgba(0,0,0,0.18);
+}
+#popupBox h2 {
+    margin-bottom: 8px;
+    font-size: 1.15rem;
+}
+#popupBox p {
+    margin-bottom: 16px;
+    color: #444;
+}
+
+/* Small helper classes */
+.text-center { text-align: center; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container { padding: 14px; }
+    .navbar ul { flex-direction: column; gap: 10px; }
+    .btn { width: 100%; }
+    .header h1 { font-size: 1.2rem; }
+    .header-right { font-size: 0.95rem; }
+}

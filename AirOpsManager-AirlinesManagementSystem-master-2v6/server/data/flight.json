@@ -1,0 +1,2872 @@
+[
+  {
+    "flight_no": 1001,
+    "schedule_id": 11112,
+    "flightstatus_id": 62,
+    "airplane_id": 41,
+    "fares": 3500,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1002,
+    "schedule_id": 52,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 4200,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1003,
+    "schedule_id": 53,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 5100,
+    "from_airport": "BLR",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1005,
+    "schedule_id": 55,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 3900,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1006,
+    "schedule_id": 56,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 6200,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1007,
+    "schedule_id": 57,
+    "flightstatus_id": 62,
+    "airplane_id": 47,
+    "fares": 8000,
+    "from_airport": "AMD",
+    "to_airport": "DEL",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 1008,
+    "schedule_id": 58,
+    "flightstatus_id": 62,
+    "airplane_id": 48,
+    "fares": 2300,
+    "from_airport": "GOI",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 1009,
+    "schedule_id": 59,
+    "flightstatus_id": 62,
+    "airplane_id": 49,
+    "fares": 3300,
+    "from_airport": "COK",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 1010,
+    "schedule_id": 60,
+    "flightstatus_id": 62,
+    "airplane_id": 50,
+    "fares": 7500,
+    "from_airport": "TRV",
+    "to_airport": "DEL",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 1011,
+    "schedule_id": 61,
+    "flightstatus_id": 62,
+    "airplane_id": 41,
+    "fares": 4100,
+    "from_airport": "IXC",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 1012,
+    "schedule_id": 62,
+    "flightstatus_id": 62,
+    "airplane_id": 42,
+    "fares": 5400,
+    "from_airport": "ATQ",
+    "to_airport": "DEL",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2001,
+    "schedule_id": 57,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 3500,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2002,
+    "schedule_id": 58,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 4100,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2003,
+    "schedule_id": 59,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 4700,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2004,
+    "schedule_id": 60,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 3900,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2005,
+    "schedule_id": 61,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 4500,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2006,
+    "schedule_id": 62,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 5200,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2007,
+    "schedule_id": 63,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 3800,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2008,
+    "schedule_id": 64,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 4300,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2009,
+    "schedule_id": 65,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 5600,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3001,
+    "schedule_id": 70,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 4800,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3002,
+    "schedule_id": 71,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 5200,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3003,
+    "schedule_id": 72,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 5900,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3004,
+    "schedule_id": 82,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 4700,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3005,
+    "schedule_id": 83,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 5300,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3006,
+    "schedule_id": 84,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 6000,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3101,
+    "schedule_id": 73,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 2100,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3102,
+    "schedule_id": 74,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 2500,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3103,
+    "schedule_id": 75,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 2900,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3104,
+    "schedule_id": 85,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 2200,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3105,
+    "schedule_id": 86,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 2600,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3106,
+    "schedule_id": 87,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 3000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3201,
+    "schedule_id": 76,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 4500,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3202,
+    "schedule_id": 77,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 5100,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3203,
+    "schedule_id": 78,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 5600,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3204,
+    "schedule_id": 88,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 4400,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3206,
+    "schedule_id": 90,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 5700,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3301,
+    "schedule_id": 79,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 1800,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3302,
+    "schedule_id": 80,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 2100,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3303,
+    "schedule_id": 81,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 2400,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3304,
+    "schedule_id": 91,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 1900,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3305,
+    "schedule_id": 92,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 2200,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3306,
+    "schedule_id": 93,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 2500,
+    "from_airport": "GOI",
+    "to_airport": "PNQ",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 3205,
+    "schedule_id": 89,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 5200,
+    "from_airport": "HYD",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 2449,
+    "schedule_id": 7077,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 1234,
+    "from_airport": "DEL",
+    "to_airport": "TRV",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 6620,
+    "schedule_id": 2203,
+    "flightstatus_id": 62,
+    "airplane_id": 8,
+    "fares": 2746,
+    "from_airport": "DEL",
+    "to_airport": "GWL",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10001,
+    "schedule_id": 11112,
+    "flightstatus_id": 62,
+    "airplane_id": 41,
+    "fares": 3500,
+    "from_airport": "BOM",
+    "to_airport": "TRV",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 8894,
+    "schedule_id": 4822,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 10000,
+    "from_airport": "TRV",
+    "to_airport": "DEL",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 6925,
+    "schedule_id": 1052,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 8900,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 8918,
+    "schedule_id": 1678,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 7800,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 8495,
+    "schedule_id": 3797,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 1234,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10002,
+    "schedule_id": 11112,
+    "flightstatus_id": 62,
+    "airplane_id": 41,
+    "fares": 3500,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 4180,
+    "schedule_id": 1724,
+    "flightstatus_id": 62,
+    "airplane_id": 10,
+    "fares": 15000,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 9001,
+    "schedule_id": 8001,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 4500,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 9002,
+    "schedule_id": 8002,
+    "flightstatus_id": 62,
+    "airplane_id": 3,
+    "fares": 4800,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 9003,
+    "schedule_id": 8003,
+    "flightstatus_id": 62,
+    "airplane_id": 4,
+    "fares": 5200,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 9004,
+    "schedule_id": 8004,
+    "flightstatus_id": 62,
+    "airplane_id": 5,
+    "fares": 4700,
+    "from_airport": "CCU",
+    "to_airport": "DEL",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 9005,
+    "schedule_id": 8005,
+    "flightstatus_id": 62,
+    "airplane_id": 6,
+    "fares": 4300,
+    "from_airport": "MAA",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 7823,
+    "schedule_id": 2648,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 12345,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10003,
+    "schedule_id": 11123,
+    "flightstatus_id": 62,
+    "airplane_id": 59,
+    "fares": 2282,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10004,
+    "schedule_id": 11124,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 2882,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10005,
+    "schedule_id": 11125,
+    "flightstatus_id": 62,
+    "airplane_id": 1,
+    "fares": 5462,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10006,
+    "schedule_id": 11126,
+    "flightstatus_id": 62,
+    "airplane_id": 95,
+    "fares": 3976,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10007,
+    "schedule_id": 11127,
+    "flightstatus_id": 62,
+    "airplane_id": 20,
+    "fares": 2095,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10008,
+    "schedule_id": 11128,
+    "flightstatus_id": 62,
+    "airplane_id": 91,
+    "fares": 2701,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10009,
+    "schedule_id": 11129,
+    "flightstatus_id": 62,
+    "airplane_id": 20,
+    "fares": 2126,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10010,
+    "schedule_id": 11130,
+    "flightstatus_id": 62,
+    "airplane_id": 53,
+    "fares": 3032,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10011,
+    "schedule_id": 11131,
+    "flightstatus_id": 62,
+    "airplane_id": 88,
+    "fares": 5248,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10012,
+    "schedule_id": 11132,
+    "flightstatus_id": 62,
+    "airplane_id": 99,
+    "fares": 2003,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10013,
+    "schedule_id": 11133,
+    "flightstatus_id": 62,
+    "airplane_id": 7,
+    "fares": 5305,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10014,
+    "schedule_id": 11134,
+    "flightstatus_id": 62,
+    "airplane_id": 42,
+    "fares": 4466,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10015,
+    "schedule_id": 11135,
+    "flightstatus_id": 62,
+    "airplane_id": 3156,
+    "fares": 4426,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10016,
+    "schedule_id": 11136,
+    "flightstatus_id": 62,
+    "airplane_id": 82,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10017,
+    "schedule_id": 11137,
+    "flightstatus_id": 62,
+    "airplane_id": 9,
+    "fares": 4629,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10018,
+    "schedule_id": 11138,
+    "flightstatus_id": 62,
+    "airplane_id": 88,
+    "fares": 4979,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10019,
+    "schedule_id": 11139,
+    "flightstatus_id": 62,
+    "airplane_id": 9,
+    "fares": 5241,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10020,
+    "schedule_id": 11140,
+    "flightstatus_id": 62,
+    "airplane_id": 82,
+    "fares": 2808,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10021,
+    "schedule_id": 11141,
+    "flightstatus_id": 62,
+    "airplane_id": 18,
+    "fares": 4164,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10022,
+    "schedule_id": 11142,
+    "flightstatus_id": 62,
+    "airplane_id": 50,
+    "fares": 4823,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10023,
+    "schedule_id": 11143,
+    "flightstatus_id": 62,
+    "airplane_id": 95,
+    "fares": 3325,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10024,
+    "schedule_id": 11144,
+    "flightstatus_id": 62,
+    "airplane_id": 2,
+    "fares": 3428,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10025,
+    "schedule_id": 11145,
+    "flightstatus_id": 65,
+    "airplane_id": 91,
+    "fares": 2921,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10026,
+    "schedule_id": 11146,
+    "flightstatus_id": 65,
+    "airplane_id": 17,
+    "fares": 4350,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10027,
+    "schedule_id": 11147,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 2016,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10028,
+    "schedule_id": 11148,
+    "flightstatus_id": 65,
+    "airplane_id": 17,
+    "fares": 2175,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10029,
+    "schedule_id": 11149,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 5530,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10030,
+    "schedule_id": 11150,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 4216,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10031,
+    "schedule_id": 11151,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 2067,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10032,
+    "schedule_id": 11152,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 4997,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10033,
+    "schedule_id": 11153,
+    "flightstatus_id": 65,
+    "airplane_id": 2,
+    "fares": 3009,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10034,
+    "schedule_id": 11154,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 3263,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10035,
+    "schedule_id": 11155,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10036,
+    "schedule_id": 11156,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 3243,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10037,
+    "schedule_id": 11157,
+    "flightstatus_id": 65,
+    "airplane_id": 100,
+    "fares": 2035,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10038,
+    "schedule_id": 11158,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 4642,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10039,
+    "schedule_id": 11159,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 2524,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10040,
+    "schedule_id": 11160,
+    "flightstatus_id": 65,
+    "airplane_id": 97,
+    "fares": 2125,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10041,
+    "schedule_id": 11161,
+    "flightstatus_id": 65,
+    "airplane_id": 9,
+    "fares": 4475,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10042,
+    "schedule_id": 11162,
+    "flightstatus_id": 65,
+    "airplane_id": 59,
+    "fares": 4308,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10043,
+    "schedule_id": 11163,
+    "flightstatus_id": 65,
+    "airplane_id": 4103,
+    "fares": 5141,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10044,
+    "schedule_id": 11164,
+    "flightstatus_id": 65,
+    "airplane_id": 84,
+    "fares": 3773,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10045,
+    "schedule_id": 11165,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 2443,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10046,
+    "schedule_id": 11166,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 5048,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10047,
+    "schedule_id": 11167,
+    "flightstatus_id": 65,
+    "airplane_id": 13,
+    "fares": 3168,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10048,
+    "schedule_id": 11168,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10049,
+    "schedule_id": 11169,
+    "flightstatus_id": 65,
+    "airplane_id": 95,
+    "fares": 3092,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10050,
+    "schedule_id": 11170,
+    "flightstatus_id": 65,
+    "airplane_id": 8261,
+    "fares": 3391,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10051,
+    "schedule_id": 11171,
+    "flightstatus_id": 65,
+    "airplane_id": 13,
+    "fares": 3187,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10052,
+    "schedule_id": 11172,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 2020,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10053,
+    "schedule_id": 11173,
+    "flightstatus_id": 65,
+    "airplane_id": 11,
+    "fares": 3181,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10054,
+    "schedule_id": 11174,
+    "flightstatus_id": 65,
+    "airplane_id": 7,
+    "fares": 3915,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10055,
+    "schedule_id": 11175,
+    "flightstatus_id": 65,
+    "airplane_id": 81,
+    "fares": 4465,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10056,
+    "schedule_id": 11176,
+    "flightstatus_id": 65,
+    "airplane_id": 20,
+    "fares": 2182,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10057,
+    "schedule_id": 11177,
+    "flightstatus_id": 65,
+    "airplane_id": 93,
+    "fares": 2672,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10058,
+    "schedule_id": 11178,
+    "flightstatus_id": 65,
+    "airplane_id": 84,
+    "fares": 4406,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10059,
+    "schedule_id": 11179,
+    "flightstatus_id": 65,
+    "airplane_id": 6030,
+    "fares": 2758,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10060,
+    "schedule_id": 11180,
+    "flightstatus_id": 65,
+    "airplane_id": 3156,
+    "fares": 5187,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10061,
+    "schedule_id": 11181,
+    "flightstatus_id": 65,
+    "airplane_id": 53,
+    "fares": 3552,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10062,
+    "schedule_id": 11182,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 2000,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10063,
+    "schedule_id": 11183,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 4193,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10064,
+    "schedule_id": 11184,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 4082,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10065,
+    "schedule_id": 11185,
+    "flightstatus_id": 65,
+    "airplane_id": 8261,
+    "fares": 2206,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10066,
+    "schedule_id": 11186,
+    "flightstatus_id": 65,
+    "airplane_id": 19,
+    "fares": 3564,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10067,
+    "schedule_id": 11187,
+    "flightstatus_id": 65,
+    "airplane_id": 4103,
+    "fares": 3468,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10068,
+    "schedule_id": 11188,
+    "flightstatus_id": 65,
+    "airplane_id": 58,
+    "fares": 2414,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10069,
+    "schedule_id": 11189,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 4013,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10070,
+    "schedule_id": 11190,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10071,
+    "schedule_id": 11191,
+    "flightstatus_id": 65,
+    "airplane_id": 45,
+    "fares": 4227,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10072,
+    "schedule_id": 11192,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 2855,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10073,
+    "schedule_id": 11193,
+    "flightstatus_id": 65,
+    "airplane_id": 94,
+    "fares": 2780,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10074,
+    "schedule_id": 11194,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 3054,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10075,
+    "schedule_id": 11195,
+    "flightstatus_id": 65,
+    "airplane_id": 86,
+    "fares": 5231,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10076,
+    "schedule_id": 11196,
+    "flightstatus_id": 65,
+    "airplane_id": 8,
+    "fares": 5459,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10077,
+    "schedule_id": 11197,
+    "flightstatus_id": 65,
+    "airplane_id": 48,
+    "fares": 5458,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10078,
+    "schedule_id": 11198,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 4179,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10079,
+    "schedule_id": 11199,
+    "flightstatus_id": 65,
+    "airplane_id": 3156,
+    "fares": 2982,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10080,
+    "schedule_id": 11200,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 2773,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10081,
+    "schedule_id": 11201,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 4612,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10082,
+    "schedule_id": 11202,
+    "flightstatus_id": 65,
+    "airplane_id": 19,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10083,
+    "schedule_id": 11203,
+    "flightstatus_id": 65,
+    "airplane_id": 12,
+    "fares": 3792,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10084,
+    "schedule_id": 11204,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 5405,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10085,
+    "schedule_id": 11205,
+    "flightstatus_id": 65,
+    "airplane_id": 81,
+    "fares": 4437,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10086,
+    "schedule_id": 11206,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 4564,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10087,
+    "schedule_id": 11207,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 5132,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10088,
+    "schedule_id": 11208,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 2645,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10089,
+    "schedule_id": 11209,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 5797,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10090,
+    "schedule_id": 11210,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 2481,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10091,
+    "schedule_id": 11211,
+    "flightstatus_id": 65,
+    "airplane_id": 9,
+    "fares": 3433,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10092,
+    "schedule_id": 11212,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 2581,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10093,
+    "schedule_id": 11213,
+    "flightstatus_id": 65,
+    "airplane_id": 6030,
+    "fares": 3256,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10094,
+    "schedule_id": 11214,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 3863,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10095,
+    "schedule_id": 11215,
+    "flightstatus_id": 65,
+    "airplane_id": 53,
+    "fares": 2976,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10096,
+    "schedule_id": 11216,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 4900,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10097,
+    "schedule_id": 11217,
+    "flightstatus_id": 65,
+    "airplane_id": 3156,
+    "fares": 2627,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10098,
+    "schedule_id": 11218,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 4136,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10099,
+    "schedule_id": 11219,
+    "flightstatus_id": 65,
+    "airplane_id": 3156,
+    "fares": 2671,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10100,
+    "schedule_id": 11220,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 4793,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10101,
+    "schedule_id": 11221,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 4600,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10102,
+    "schedule_id": 11222,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 5257,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10103,
+    "schedule_id": 11223,
+    "flightstatus_id": 65,
+    "airplane_id": 58,
+    "fares": 4261,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10104,
+    "schedule_id": 11224,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 5207,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10105,
+    "schedule_id": 11225,
+    "flightstatus_id": 65,
+    "airplane_id": 42,
+    "fares": 2202,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10106,
+    "schedule_id": 11226,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 4829,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10107,
+    "schedule_id": 11227,
+    "flightstatus_id": 65,
+    "airplane_id": 84,
+    "fares": 5597,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10108,
+    "schedule_id": 11228,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 3080,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10109,
+    "schedule_id": 11229,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 5877,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10110,
+    "schedule_id": 11230,
+    "flightstatus_id": 65,
+    "airplane_id": 16,
+    "fares": 4451,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10111,
+    "schedule_id": 11231,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 2609,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10112,
+    "schedule_id": 11232,
+    "flightstatus_id": 65,
+    "airplane_id": 2,
+    "fares": 5194,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10113,
+    "schedule_id": 11233,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 4287,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10114,
+    "schedule_id": 11234,
+    "flightstatus_id": 65,
+    "airplane_id": 6030,
+    "fares": 2888,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10115,
+    "schedule_id": 11235,
+    "flightstatus_id": 65,
+    "airplane_id": 41,
+    "fares": 2299,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10116,
+    "schedule_id": 11236,
+    "flightstatus_id": 65,
+    "airplane_id": 50,
+    "fares": 3909,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10117,
+    "schedule_id": 11237,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 4605,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10118,
+    "schedule_id": 11238,
+    "flightstatus_id": 65,
+    "airplane_id": 86,
+    "fares": 5271,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10119,
+    "schedule_id": 11239,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 3590,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10120,
+    "schedule_id": 11240,
+    "flightstatus_id": 65,
+    "airplane_id": 92,
+    "fares": 2703,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10121,
+    "schedule_id": 11241,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 4028,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10122,
+    "schedule_id": 11242,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 4895,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10123,
+    "schedule_id": 11243,
+    "flightstatus_id": 65,
+    "airplane_id": 3156,
+    "fares": 5390,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10124,
+    "schedule_id": 11244,
+    "flightstatus_id": 65,
+    "airplane_id": 20,
+    "fares": 3556,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10125,
+    "schedule_id": 11245,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 5198,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10126,
+    "schedule_id": 11246,
+    "flightstatus_id": 65,
+    "airplane_id": 15,
+    "fares": 3776,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10127,
+    "schedule_id": 11247,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 3971,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10128,
+    "schedule_id": 11248,
+    "flightstatus_id": 65,
+    "airplane_id": 1,
+    "fares": 2995,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10129,
+    "schedule_id": 11249,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 3360,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10130,
+    "schedule_id": 11250,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 3049,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10131,
+    "schedule_id": 11251,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 3203,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10132,
+    "schedule_id": 11252,
+    "flightstatus_id": 65,
+    "airplane_id": 7,
+    "fares": 5495,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10133,
+    "schedule_id": 11253,
+    "flightstatus_id": 65,
+    "airplane_id": 2,
+    "fares": 4753,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10134,
+    "schedule_id": 11254,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 4389,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10135,
+    "schedule_id": 11255,
+    "flightstatus_id": 65,
+    "airplane_id": 12,
+    "fares": 3146,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10136,
+    "schedule_id": 11256,
+    "flightstatus_id": 65,
+    "airplane_id": 11,
+    "fares": 2834,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10137,
+    "schedule_id": 11257,
+    "flightstatus_id": 65,
+    "airplane_id": 6,
+    "fares": 3574,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10138,
+    "schedule_id": 11258,
+    "flightstatus_id": 65,
+    "airplane_id": 92,
+    "fares": 2500,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10139,
+    "schedule_id": 11259,
+    "flightstatus_id": 65,
+    "airplane_id": 48,
+    "fares": 4837,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10140,
+    "schedule_id": 11260,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 5081,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10141,
+    "schedule_id": 11261,
+    "flightstatus_id": 65,
+    "airplane_id": 91,
+    "fares": 3478,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10142,
+    "schedule_id": 11262,
+    "flightstatus_id": 65,
+    "airplane_id": 86,
+    "fares": 4686,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10143,
+    "schedule_id": 11263,
+    "flightstatus_id": 65,
+    "airplane_id": 4103,
+    "fares": 4144,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10144,
+    "schedule_id": 11264,
+    "flightstatus_id": 65,
+    "airplane_id": 50,
+    "fares": 4380,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10145,
+    "schedule_id": 11265,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 5064,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10146,
+    "schedule_id": 11266,
+    "flightstatus_id": 65,
+    "airplane_id": 14,
+    "fares": 3068,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10147,
+    "schedule_id": 11267,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 4724,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10148,
+    "schedule_id": 11268,
+    "flightstatus_id": 65,
+    "airplane_id": 8,
+    "fares": 3597,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10149,
+    "schedule_id": 11269,
+    "flightstatus_id": 65,
+    "airplane_id": 47,
+    "fares": 3382,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10150,
+    "schedule_id": 11270,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 4464,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10151,
+    "schedule_id": 11271,
+    "flightstatus_id": 65,
+    "airplane_id": 42,
+    "fares": 2566,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10152,
+    "schedule_id": 11272,
+    "flightstatus_id": 65,
+    "airplane_id": 10,
+    "fares": 4965,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10153,
+    "schedule_id": 11273,
+    "flightstatus_id": 65,
+    "airplane_id": 19,
+    "fares": 3551,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10154,
+    "schedule_id": 11274,
+    "flightstatus_id": 65,
+    "airplane_id": 95,
+    "fares": 3911,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10155,
+    "schedule_id": 11275,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 2790,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10156,
+    "schedule_id": 11276,
+    "flightstatus_id": 65,
+    "airplane_id": 17,
+    "fares": 4580,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10157,
+    "schedule_id": 11277,
+    "flightstatus_id": 65,
+    "airplane_id": 92,
+    "fares": 3394,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10158,
+    "schedule_id": 11278,
+    "flightstatus_id": 65,
+    "airplane_id": 91,
+    "fares": 3060,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10159,
+    "schedule_id": 11279,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 5440,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10160,
+    "schedule_id": 11280,
+    "flightstatus_id": 65,
+    "airplane_id": 10,
+    "fares": 5665,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10161,
+    "schedule_id": 11281,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 3184,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10162,
+    "schedule_id": 11282,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 4969,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10163,
+    "schedule_id": 11283,
+    "flightstatus_id": 65,
+    "airplane_id": 16,
+    "fares": 4210,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10164,
+    "schedule_id": 11284,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 3118,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10165,
+    "schedule_id": 11285,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 4120,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10166,
+    "schedule_id": 11286,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 5961,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10167,
+    "schedule_id": 11287,
+    "flightstatus_id": 65,
+    "airplane_id": 17,
+    "fares": 4947,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10168,
+    "schedule_id": 11288,
+    "flightstatus_id": 65,
+    "airplane_id": 50,
+    "fares": 4866,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10169,
+    "schedule_id": 11289,
+    "flightstatus_id": 65,
+    "airplane_id": 14,
+    "fares": 2845,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10170,
+    "schedule_id": 11290,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 3111,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10171,
+    "schedule_id": 11291,
+    "flightstatus_id": 65,
+    "airplane_id": 54,
+    "fares": 2984,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10172,
+    "schedule_id": 11292,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 4948,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10173,
+    "schedule_id": 11293,
+    "flightstatus_id": 65,
+    "airplane_id": 90,
+    "fares": 4945,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10174,
+    "schedule_id": 11294,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 2259,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10175,
+    "schedule_id": 11295,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 3223,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10176,
+    "schedule_id": 11296,
+    "flightstatus_id": 65,
+    "airplane_id": 16,
+    "fares": 4080,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10177,
+    "schedule_id": 11297,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 3942,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10178,
+    "schedule_id": 11298,
+    "flightstatus_id": 65,
+    "airplane_id": 15,
+    "fares": 3180,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10179,
+    "schedule_id": 11299,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 4939,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10180,
+    "schedule_id": 11300,
+    "flightstatus_id": 65,
+    "airplane_id": 99,
+    "fares": 4475,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10181,
+    "schedule_id": 11301,
+    "flightstatus_id": 65,
+    "airplane_id": 2,
+    "fares": 3486,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10182,
+    "schedule_id": 11302,
+    "flightstatus_id": 65,
+    "airplane_id": 51,
+    "fares": 3485,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10183,
+    "schedule_id": 11303,
+    "flightstatus_id": 65,
+    "airplane_id": 51,
+    "fares": 3369,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10184,
+    "schedule_id": 11304,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 3091,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10185,
+    "schedule_id": 11305,
+    "flightstatus_id": 65,
+    "airplane_id": 60,
+    "fares": 4905,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10186,
+    "schedule_id": 11306,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 4478,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10187,
+    "schedule_id": 11307,
+    "flightstatus_id": 65,
+    "airplane_id": 47,
+    "fares": 4988,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10188,
+    "schedule_id": 11308,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 2376,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10189,
+    "schedule_id": 11309,
+    "flightstatus_id": 65,
+    "airplane_id": 50,
+    "fares": 5288,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10190,
+    "schedule_id": 11310,
+    "flightstatus_id": 65,
+    "airplane_id": 57,
+    "fares": 2000,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10191,
+    "schedule_id": 11311,
+    "flightstatus_id": 65,
+    "airplane_id": 81,
+    "fares": 3894,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10192,
+    "schedule_id": 11312,
+    "flightstatus_id": 65,
+    "airplane_id": 60,
+    "fares": 2001,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10193,
+    "schedule_id": 11313,
+    "flightstatus_id": 65,
+    "airplane_id": 83,
+    "fares": 5286,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10194,
+    "schedule_id": 11314,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 2598,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10195,
+    "schedule_id": 11315,
+    "flightstatus_id": 65,
+    "airplane_id": 5,
+    "fares": 4294,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10196,
+    "schedule_id": 11316,
+    "flightstatus_id": 65,
+    "airplane_id": 97,
+    "fares": 2203,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10197,
+    "schedule_id": 11317,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 5232,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10198,
+    "schedule_id": 11318,
+    "flightstatus_id": 65,
+    "airplane_id": 86,
+    "fares": 4789,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10199,
+    "schedule_id": 11319,
+    "flightstatus_id": 65,
+    "airplane_id": 3,
+    "fares": 5450,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10200,
+    "schedule_id": 11320,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 3317,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10201,
+    "schedule_id": 11321,
+    "flightstatus_id": 65,
+    "airplane_id": 45,
+    "fares": 2725,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10202,
+    "schedule_id": 11322,
+    "flightstatus_id": 65,
+    "airplane_id": 45,
+    "fares": 2833,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10203,
+    "schedule_id": 11323,
+    "flightstatus_id": 65,
+    "airplane_id": 9,
+    "fares": 4250,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10204,
+    "schedule_id": 11324,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 2270,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10205,
+    "schedule_id": 11325,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 3037,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10206,
+    "schedule_id": 11326,
+    "flightstatus_id": 65,
+    "airplane_id": 91,
+    "fares": 3445,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10207,
+    "schedule_id": 11327,
+    "flightstatus_id": 65,
+    "airplane_id": 97,
+    "fares": 4775,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "SpiceJet"
+  },
+  {
+    "flight_no": 10208,
+    "schedule_id": 11328,
+    "flightstatus_id": 65,
+    "airplane_id": 54,
+    "fares": 2729,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10209,
+    "schedule_id": 11329,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 5294,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10210,
+    "schedule_id": 11330,
+    "flightstatus_id": 65,
+    "airplane_id": 51,
+    "fares": 3918,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10211,
+    "schedule_id": 11331,
+    "flightstatus_id": 65,
+    "airplane_id": 85,
+    "fares": 2929,
+    "from_airport": "BOM",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10212,
+    "schedule_id": 11332,
+    "flightstatus_id": 65,
+    "airplane_id": 15,
+    "fares": 3185,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10213,
+    "schedule_id": 11333,
+    "flightstatus_id": 65,
+    "airplane_id": 89,
+    "fares": 4866,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10214,
+    "schedule_id": 11334,
+    "flightstatus_id": 65,
+    "airplane_id": 88,
+    "fares": 5464,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10215,
+    "schedule_id": 11335,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 4482,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10216,
+    "schedule_id": 11336,
+    "flightstatus_id": 65,
+    "airplane_id": 95,
+    "fares": 2811,
+    "from_airport": "BOM",
+    "to_airport": "HYD",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10217,
+    "schedule_id": 11337,
+    "flightstatus_id": 65,
+    "airplane_id": 4,
+    "fares": 4460,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10218,
+    "schedule_id": 11338,
+    "flightstatus_id": 65,
+    "airplane_id": 95,
+    "fares": 3641,
+    "from_airport": "DEL",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10219,
+    "schedule_id": 11339,
+    "flightstatus_id": 65,
+    "airplane_id": 91,
+    "fares": 2810,
+    "from_airport": "HYD",
+    "to_airport": "BOM",
+    "airline": "Vistara"
+  },
+  {
+    "flight_no": 10220,
+    "schedule_id": 11340,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 4508,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10221,
+    "schedule_id": 11341,
+    "flightstatus_id": 65,
+    "airplane_id": 6,
+    "fares": 4684,
+    "from_airport": "DEL",
+    "to_airport": "BLR",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10222,
+    "schedule_id": 11342,
+    "flightstatus_id": 65,
+    "airplane_id": 46,
+    "fares": 4711,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10223,
+    "schedule_id": 11343,
+    "flightstatus_id": 65,
+    "airplane_id": 2,
+    "fares": 4173,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10224,
+    "schedule_id": 11344,
+    "flightstatus_id": 65,
+    "airplane_id": 44,
+    "fares": 2521,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10225,
+    "schedule_id": 11345,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 2426,
+    "from_airport": "BLR",
+    "to_airport": "MAA",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10226,
+    "schedule_id": 11346,
+    "flightstatus_id": 65,
+    "airplane_id": 9,
+    "fares": 5304,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10227,
+    "schedule_id": 11347,
+    "flightstatus_id": 65,
+    "airplane_id": 43,
+    "fares": 4669,
+    "from_airport": "DEL",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10228,
+    "schedule_id": 11348,
+    "flightstatus_id": 65,
+    "airplane_id": 47,
+    "fares": 5971,
+    "from_airport": "DEL",
+    "to_airport": "MAA",
+    "airline": "Air India"
+  },
+  {
+    "flight_no": 10229,
+    "schedule_id": 11349,
+    "flightstatus_id": 65,
+    "airplane_id": 81,
+    "fares": 4215,
+    "from_airport": "DEL",
+    "to_airport": "GOI",
+    "airline": "IndiGo"
+  },
+  {
+    "flight_no": 10230,
+    "schedule_id": 11350,
+    "flightstatus_id": 65,
+    "airplane_id": 82,
+    "fares": 4045,
+    "from_airport": "BLR",
+    "to_airport": "CCU",
+    "airline": "IndiGo"
+  }
+]

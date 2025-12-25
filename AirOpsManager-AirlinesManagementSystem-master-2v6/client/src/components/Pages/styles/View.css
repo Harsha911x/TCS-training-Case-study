@@ -1,0 +1,17 @@
+
+
+
+
+.airline-logo {
+  width: 90px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.view-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e5e5e5;
+}

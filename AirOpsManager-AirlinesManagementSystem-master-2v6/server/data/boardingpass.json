@@ -1,0 +1,387 @@
+[
+  {
+    "boarding_pass_id": 1,
+    "booking_id": 304,
+    "seat_no": "1F",
+    "gate": 12,
+    "boarding_time": "2025-12-06 00:00:00"
+  },
+  {
+    "boarding_pass_id": 2,
+    "booking_id": 305,
+    "seat_no": "7F",
+    "gate": 15,
+    "boarding_time": "2025-12-31 10:30:00"
+  },
+  {
+    "boarding_pass_id": 3,
+    "booking_id": 306,
+    "seat_no": "20D",
+    "gate": 16,
+    "boarding_time": "2025-12-04 12:20:00"
+  },
+  {
+    "boarding_pass_id": 4,
+    "booking_id": 307,
+    "seat_no": "19D",
+    "gate": 16,
+    "boarding_time": "2025-12-04 12:20:00"
+  },
+  {
+    "boarding_pass_id": 5,
+    "booking_id": 308,
+    "seat_no": "1F",
+    "gate": 16,
+    "boarding_time": "2025-12-04 06:40:00"
+  },
+  {
+    "boarding_pass_id": 6,
+    "booking_id": 309,
+    "seat_no": "1D",
+    "gate": 16,
+    "boarding_time": "2025-12-04 06:40:00"
+  },
+  {
+    "boarding_pass_id": 7,
+    "booking_id": 310,
+    "seat_no": "1D",
+    "gate": 12,
+    "boarding_time": "2025-12-04 00:00:00"
+  },
+  {
+    "boarding_pass_id": 8,
+    "booking_id": 311,
+    "seat_no": "1D",
+    "gate": 12,
+    "boarding_time": "2025-12-04 06:30:00"
+  },
+  {
+    "boarding_pass_id": 9,
+    "booking_id": 312,
+    "seat_no": "1E",
+    "gate": 16,
+    "boarding_time": "2025-12-04 00:30:00"
+  },
+  {
+    "boarding_pass_id": 10,
+    "booking_id": 313,
+    "seat_no": "30B",
+    "gate": 16,
+    "boarding_time": "2025-12-04 00:30:00"
+  },
+  {
+    "boarding_pass_id": 11,
+    "booking_id": 314,
+    "seat_no": "10A",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 12,
+    "booking_id": 315,
+    "seat_no": "5A",
+    "gate": 10,
+    "boarding_time": "2025-12-05 19:20:00"
+  },
+  {
+    "boarding_pass_id": 13,
+    "booking_id": 316,
+    "seat_no": "21A",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 14,
+    "booking_id": 317,
+    "seat_no": "6B",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 15,
+    "booking_id": 318,
+    "seat_no": "5E",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 16,
+    "booking_id": 319,
+    "seat_no": "6E",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 17,
+    "booking_id": 320,
+    "seat_no": "3D",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 18,
+    "booking_id": 321,
+    "seat_no": "4D",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 19,
+    "booking_id": 322,
+    "seat_no": "6F",
+    "gate": 9,
+    "boarding_time": "2025-12-05 23:55:00"
+  },
+  {
+    "boarding_pass_id": 20,
+    "booking_id": 323,
+    "seat_no": "3E",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 21,
+    "booking_id": 324,
+    "seat_no": "3F",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 22,
+    "booking_id": 325,
+    "seat_no": "1F",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 23,
+    "booking_id": 326,
+    "seat_no": "1F",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 24,
+    "booking_id": 327,
+    "seat_no": "1D",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 25,
+    "booking_id": 328,
+    "seat_no": "3E",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 26,
+    "booking_id": 329,
+    "seat_no": "1C",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 27,
+    "booking_id": 330,
+    "seat_no": "5F",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 331,
+    "seat_no": "3A",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 332,
+    "seat_no": "4A",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 333,
+    "seat_no": "4B",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 334,
+    "seat_no": "3B",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 335,
+    "seat_no": "3C",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 28,
+    "booking_id": 336,
+    "seat_no": "4C",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 29,
+    "booking_id": 337,
+    "seat_no": "5C",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 30,
+    "booking_id": 506,
+    "seat_no": "5F",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 30,
+    "booking_id": 507,
+    "seat_no": "5E",
+    "gate": 15,
+    "boarding_time": "2025-12-05 07:20:00"
+  },
+  {
+    "boarding_pass_id": 31,
+    "booking_id": 508,
+    "seat_no": "1E",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 31,
+    "booking_id": 509,
+    "seat_no": "1F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 32,
+    "booking_id": 510,
+    "seat_no": "2F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 32,
+    "booking_id": 511,
+    "seat_no": "2E",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 33,
+    "booking_id": 512,
+    "seat_no": "3F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 33,
+    "booking_id": 513,
+    "seat_no": "3E",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 34,
+    "booking_id": 514,
+    "seat_no": "2E",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 34,
+    "booking_id": 515,
+    "seat_no": "3F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 34,
+    "booking_id": 516,
+    "seat_no": "4F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 35,
+    "booking_id": 517,
+    "seat_no": "25F",
+    "gate": 12,
+    "boarding_time": "2025-12-10 00:15:00"
+  },
+  {
+    "boarding_pass_id": 36,
+    "booking_id": 518,
+    "seat_no": "1E",
+    "gate": 15,
+    "boarding_time": "2025-12-13 09:45:00"
+  },
+  {
+    "boarding_pass_id": 36,
+    "booking_id": 519,
+    "seat_no": "1D",
+    "gate": 15,
+    "boarding_time": "2025-12-13 09:45:00"
+  },
+  {
+    "boarding_pass_id": 37,
+    "booking_id": 520,
+    "seat_no": "1E",
+    "gate": 12,
+    "boarding_time": "2025-12-10 00:15:00"
+  },
+  {
+    "boarding_pass_id": 38,
+    "booking_id": 521,
+    "seat_no": "3F",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 39,
+    "booking_id": 522,
+    "seat_no": "4E",
+    "gate": 12,
+    "boarding_time": "2025-12-09 16:24:00"
+  },
+  {
+    "boarding_pass_id": 40,
+    "booking_id": 523,
+    "seat_no": "1F",
+    "gate": 12,
+    "boarding_time": "2025-12-10 00:15:00"
+  },
+  {
+    "boarding_pass_id": 41,
+    "booking_id": 524,
+    "seat_no": "1F",
+    "gate": 5,
+    "boarding_time": "2025-12-16 09:15:00"
+  },
+  {
+    "boarding_pass_id": 42,
+    "booking_id": 525,
+    "seat_no": "1A",
+    "gate": 5,
+    "boarding_time": "2025-12-16 09:15:00"
+  },
+  {
+    "boarding_pass_id": 42,
+    "booking_id": 526,
+    "seat_no": "1B",
+    "gate": 5,
+    "boarding_time": "2025-12-16 09:15:00"
+  }
+]

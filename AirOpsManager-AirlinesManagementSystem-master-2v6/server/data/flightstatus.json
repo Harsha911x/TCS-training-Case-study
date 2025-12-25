@@ -1,0 +1,7 @@
+[
+  { "flightstatus_id": 61, "status": "Departed" },
+  { "flightstatus_id": 62, "status": "Landed" },
+  { "flightstatus_id": 63, "status": "Delayed" },
+  { "flightstatus_id": 64, "status": "Boarding" },
+  { "flightstatus_id": 65, "status": "On Time" }
+]

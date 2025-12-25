@@ -1,0 +1,223 @@
+/* .bg-image{
+  background-image: url('../../../images/pexels-912050.jpg');
+  background-repeat: no-repeat;
+}
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+} */
+
+/* Background Image (your original class) */
+/* Full background with your image */
+
+
+/* ===== Background image (no blur, scroll outside form) ===== */
+.bg-image {
+  background-image: url("../../../images/pexels-912050.jpg"); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  padding: 40px 16px;
+}
+
+/* Center the form on the screen */
+.Auth-form-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* ===== Form card ===== */
+.Auth-form {
+  width: 100%;
+  max-width: 620px;              /* good desktop width */
+  background: #ffffff;           /* solid white */
+  border-radius: 18px;
+  padding: 28px 26px 34px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+}
+
+/* make sure all text inside form is dark */
+.Auth-form,
+.Auth-form * {
+  color: #000000;
+}
+
+/* Inner wrapper */
+.Auth-form-content {
+  width: 100%;
+}
+
+/* ===== Title & subtitle ===== */
+.Auth-form-title {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 30px;
+  color: #0d47a1;
+  margin-bottom: 2px;
+}
+
+.Auth-form-subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #4b5563;
+  margin-bottom: 14px;
+}
+
+/* Labels – black & professional */
+label {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ===== Inputs & selects ===== */
+.form-control,
+.form-select {
+  width: 100%;
+  border-radius: 10px;
+  padding: 9px 10px;
+  font-size: 15px;
+  border: 1px solid #c5c5c5;
+  background-color: #ffffff;
+}
+
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #0d47a1;
+  box-shadow: 0 0 0 2px rgba(13, 71, 161, 0.15);
+}
+
+/* Smaller, softer placeholders */
+.form-control::placeholder {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* Password rule text – smaller */
+.password-hint {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* ===== Horizontal rows for grouped fields ===== */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.form-row .form-group {
+  width: 50%;
+}
+
+/* ===== Phone row ===== */
+.phone-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.country-select {
+  max-width: 120px;
+}
+
+/* ===== Button ===== */
+button.btn-primary {
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/* ===== Login link text ===== */
+.login-text {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.auth-link {
+  color: #0d47a1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive: on small screens, stack rows vertically ===== */
+@media (max-width: 640px) {
+  .bg-image {
+    padding: 24px 12px;
+  }
+
+  .Auth-form {
+    max-width: 100%;
+    padding: 22px 16px 24px;
+  }
+
+  .form-row,
+  .phone-row {
+    flex-direction: column;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+  }
+}
+
+  .form-row .form-group input{
+    width: 100%;
+    max-width: 260px;
+  }
+
+  label{
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+
+
+

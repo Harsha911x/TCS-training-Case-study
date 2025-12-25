@@ -1,0 +1,389 @@
+
+
+/* src/components/Admin/styles/AdminPanel.css */
+
+.admin-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f6fb 0%, #e0e7ff 100%);
+  position: relative;
+}
+
+.admin-layout::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.admin-main {
+  position: relative;
+  z-index: 1;
+}
+
+/* main content sits beside sidebar and under navbar */
+.admin-main {
+  margin-top: 64px;
+  margin-left: 220px;
+  padding: 20px 24px 32px;
+  transition: margin-left 0.25s ease;
+}
+
+/* When sidebar is collapsed, shift content left */
+.sidebar-container.collapsed ~ .admin-main {
+  margin-left: 72px;
+}
+
+/* Header */
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.admin-header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 6px;
+  letter-spacing: -0.02em;
+}
+
+.admin-subtitle {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.admin-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-ghost {
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #0f172a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04);
+}
+
+.btn-ghost:hover {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-color: #3b82f6;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.15);
+}
+
+/* Base card */
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px 24px;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12), 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Stat cards */
+.top-stats .card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.stat label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.stat h2 {
+  font-size: 32px;
+  margin-top: 8px;
+  color: #0f172a;
+  font-weight: 700;
+  background: linear-gradient(135deg, #0f172a 0%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-helper {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+/* Enhanced color ribbons with icons */
+.stat.blue::before,
+.stat.green::before,
+.stat.orange::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  opacity: 0.1;
+  pointer-events: none;
+  border-radius: 50%;
+  filter: blur(40px);
+}
+
+.stat.blue::before {
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+.stat.green::before {
+  background: linear-gradient(135deg, #10b981, #34d399);
+}
+
+.stat.orange::before {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+}
+
+.stat.blue {
+  border-left: 4px solid #3b82f6;
+}
+
+.stat.green {
+  border-left: 4px solid #10b981;
+}
+
+.stat.orange {
+  border-left: 4px solid #f59e0b;
+}
+
+/* Grid helpers */
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  align-items: stretch;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: 2.1fr 1.4fr;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+/* mini cards */
+.mini-section {
+  margin-top: 18px;
+}
+
+.mini-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 14px;
+  padding: 16px 18px;
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  font-size: 12px;
+  color: #64748b;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.mini-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.mini-card p {
+  margin-bottom: 4px;
+}
+
+.mini-card b {
+  font-size: 14px;
+  color: #0f172a;
+}
+
+/* Chart card */
+.chart-card .card-header,
+.list-card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.card-header h3 {
+  font-size: 15px;
+  color: #0f172a;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.badge.grey {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+/* recent bookings */
+.list-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-list {
+  margin-top: 4px;
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.empty-text {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.booking-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  font-size: 13px;
+}
+
+.booking-item:last-child {
+  border-bottom: none;
+}
+
+.booking-route {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.booking-name {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.booking-pnr {
+  font-size: 12px;
+  color: #64748b;
+  text-align: right;
+}
+
+.booking-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+/* booking status pill */
+.status-pill {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.status-pill.success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-pill.cancel {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.status-pill.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Scrollbars for list */
+.booking-list::-webkit-scrollbar {
+  width: 6px;
+}
+.booking-list::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 999px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .grid-two {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .admin-main {
+    margin-left: 72px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .admin-main {
+    margin-left: 0;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .admin-header-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

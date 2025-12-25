@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Museum Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Validation message styling */
+        .validation-message {
+            font-size: 13px;
+            margin-top: 3px;
+        }
+        .valid { color: green; }
+        .invalid { color: red; }
+
+        /* Popup window styling (same as login) */
+        #popupOverlay {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #popupBox {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        }
+
+        #popupBox h3 {
+            color: green;
+            margin-bottom: 10px;
+        }
+
+        #popupBox button {
+            background: green;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #popupBox button:hover {
+            background: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- POPUP OVERLAY -->
+    <div id="popupOverlay">
+        <div id="popupBox">
+            <h3 id="popupTitle"></h3>
+            <p id="popupMessage"></p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Register</h1>
+        </div>
+
+        <div class="form-container">
+
+            <form id="registerForm" onsubmit="handleRegister(event)">
+                
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" id="fullName">
+                    <div id="nameValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Username -->
+                <div class="form-group">
+                    <label>Username *</label>
+                    <input type="text" id="username">
+                    <div id="usernameValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label>Email *</label>
+                    <input type="email" id="email">
+                    <div id="emailValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-group">
+                    <label>Phone *</label>
+                    <input type="text" id="phone" maxlength="10">
+                    <div id="phoneValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Address -->
+                <div class="form-group">
+                    <label>Address *</label>
+                    <textarea id="address"></textarea>
+                    <div id="addressValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label>Password *</label>
+                    <input type="password" id="password">
+                    <div id="passwordValidation" class="validation-message"></div>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label>Confirm Password *</label>
+                    <input type="password" id="confirmPassword">
+                    <div id="confirmValidation" class="validation-message"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width:100%;">Register</button>
+            </form>
+
+            <p class="text-center">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+<script>
+
+// ==== POPUP FUNCTIONS (same as login) ====
+function showPopup(title, message) {
+    document.getElementById("popupTitle").innerText = title;
+    document.getElementById("popupMessage").innerText = message;
+    document.getElementById("popupOverlay").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("popupOverlay").style.display = "none";
+    window.location.href = "login.html";
+}
+
+
+
+// ==== VALIDATIONS ====
+
+document.getElementById("fullName").addEventListener("input", function () {
+    const val = this.value;
+    if (/^[A-Za-z ]+$/.test(val)) {
+        setValid("nameValidation", "Valid name");
+    } else {
+        setInvalid("nameValidation", "Only letters and spaces allowed");
+    }
+});
+
+document.getElementById("username").addEventListener("input", function () {
+    const val = this.value;
+    if (/^[A-Za-z]+$/.test(val)) {
+        setValid("usernameValidation", "Valid username");
+    } else {
+        setInvalid("usernameValidation", "Only letters allowed");
+    }
+});
+
+document.getElementById("email").addEventListener("input", function () {
+    const val = this.value;
+    if (/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(val)) {
+        setValid("emailValidation", "Valid email");
+    } else {
+        setInvalid("emailValidation", "Enter valid email");
+    }
+});
+
+document.getElementById("phone").addEventListener("input", function () {
+    this.value = this.value.replace(/[^0-9]/g, "");
+    if (this.value.length === 10) {
+        setValid("phoneValidation", "Valid phone number");
+    } else {
+        setInvalid("phoneValidation", "Must be 10 digits");
+    }
+});
+
+document.getElementById("address").addEventListener("input", function () {
+    const val = this.value;
+    if (/^[A-Za-z0-9,\/\\ ]+$/.test(val)) {
+        setValid("addressValidation", "Valid address");
+    } else {
+        setInvalid("addressValidation", "Only letters, numbers, commas, / and \\ allowed");
+    }
+});
+
+document.getElementById("password").addEventListener("input", function () {
+    const val = this.value;
+    const upper = /[A-Z]/.test(val);
+    const number = /[0-9]/.test(val);
+    const special = /[!@#$%^&*]/.test(val);
+
+    if (upper && number && special && val.length >= 6) {
+        setValid("passwordValidation", "Strong password");
+    } else {
+        setInvalid("passwordValidation", "Must include uppercase, number, special char");
+    }
+});
+
+document.getElementById("confirmPassword").addEventListener("input", function () {
+    if (this.value === document.getElementById("password").value) {
+        setValid("confirmValidation", "Passwords match");
+    } else {
+        setInvalid("confirmValidation", "Passwords do not match");
+    }
+});
+
+function setValid(id, msg) {
+    const el = document.getElementById(id);
+    el.className = "validation-message valid";
+    el.innerText = msg;
+}
+
+function setInvalid(id, msg) {
+    const el = document.getElementById(id);
+    el.className = "validation-message invalid";
+    el.innerText = msg;
+}
+
+
+
+// ==== FORM SUBMIT ====
+
+async function handleRegister(event) {
+    event.preventDefault();
+
+    const params = new URLSearchParams();
+    params.append("username", username.value);
+    params.append("email", email.value);
+    params.append("fullName", fullName.value);
+    params.append("phone", phone.value);
+    params.append("address", address.value);
+    params.append("password", password.value);
+    params.append("confirmPassword", confirmPassword.value);
+
+    const res = await fetch("register", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: params.toString()
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+        showPopup("Registration Successful", data.message);
+    } else {
+        showPopup("Registration Failed", data.error);
+    }
+}
+
+</script>
+
+</body>
+</html>
